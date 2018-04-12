@@ -1,0 +1,3055 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vsq4 xmlns="http://www.yamaha.co.jp/vocaloid/schema/vsq4/"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.yamaha.co.jp/vocaloid/schema/vsq4/ vsq4.xsd">
+	<vender><![CDATA[Yamaha corporation]]></vender>
+	<version><![CDATA[4.0.0.3]]></version>
+	<vVoiceTable>
+		<vVoice>
+			<bs>0</bs>
+			<pc>0</pc>
+			<id><![CDATA[BEKDC85ZLWXHZECF]]></id>
+			<name><![CDATA[MIKU_V3_Original]]></name>
+			<vPrm>
+				<bre>0</bre>
+				<bri>0</bri>
+				<cle>0</cle>
+				<gen>0</gen>
+				<ope>0</ope>
+			</vPrm>
+		</vVoice>
+	</vVoiceTable>
+	<mixer>
+		<masterUnit>
+			<oDev>0</oDev>
+			<rLvl>0</rLvl>
+			<vol>0</vol>
+		</masterUnit>
+		<vsUnit>
+			<tNo>0</tNo>
+			<iGin>0</iGin>
+			<sLvl>-898</sLvl>
+			<sEnable>0</sEnable>
+			<m>0</m>
+			<s>0</s>
+			<pan>64</pan>
+			<vol>0</vol>
+		</vsUnit>
+		<monoUnit>
+			<iGin>0</iGin>
+			<sLvl>-898</sLvl>
+			<sEnable>0</sEnable>
+			<m>0</m>
+			<s>0</s>
+			<pan>64</pan>
+			<vol>0</vol>
+		</monoUnit>
+		<stUnit>
+			<iGin>0</iGin>
+			<m>0</m>
+			<s>0</s>
+			<vol>-129</vol>
+		</stUnit>
+	</mixer>
+	<masterTrack>
+		<seqName><![CDATA[Untitled0]]></seqName>
+		<comment><![CDATA[New VSQ File]]></comment>
+		<resolution>480</resolution>
+		<preMeasure>4</preMeasure>
+		<timeSig><m>0</m><nu>4</nu><de>4</de></timeSig>
+		<tempo><t>0</t><v>12000</v></tempo>
+	</masterTrack>
+	<vsTrack>
+		<tNo>0</tNo>
+		<name><![CDATA[Track]]></name>
+		<comment><![CDATA[Track]]></comment>
+		<vsPart>
+			<t>7680</t>
+			<playTime>6720</playTime>
+			<name><![CDATA[PIT]]></name>
+			<comment><![CDATA[New Musical Part]]></comment>
+			<sPlug>
+				<id><![CDATA[ACA9C502-A04B-42b5-B2EB-5CEA36D16FCE]]></id>
+				<name><![CDATA[VOCALOID2 Compatible Style]]></name>
+				<version><![CDATA[3.0.0.1]]></version>
+			</sPlug>
+			<pStyle>
+				<v id="accent">50</v>
+				<v id="bendDep">8</v>
+				<v id="bendLen">0</v>
+				<v id="decay">50</v>
+				<v id="fallPort">0</v>
+				<v id="opening">127</v>
+				<v id="risePort">0</v>
+			</pStyle>
+			<singer>
+				<t>0</t>
+				<bs>0</bs>
+				<pc>0</pc>
+			</singer>
+			<cc><t>0</t><v id="P">7851</v></cc>
+			<cc><t>6</t><v id="P">8021</v></cc>
+			<cc><t>16</t><v id="P">8106</v></cc>
+			<cc><t>26</t><v id="P">8191</v></cc>
+			<cc><t>656</t><v id="P">8106</v></cc>
+			<cc><t>670</t><v id="P">8021</v></cc>
+			<cc><t>680</t><v id="P">7936</v></cc>
+			<cc><t>710</t><v id="P">7851</v></cc>
+			<cc><t>720</t><v id="P">7766</v></cc>
+			<cc><t>740</t><v id="P">7681</v></cc>
+			<cc><t>746</t><v id="P">7596</v></cc>
+			<cc><t>770</t><v id="P">7511</v></cc>
+			<cc><t>786</t><v id="P">7427</v></cc>
+			<cc><t>800</t><v id="P">7342</v></cc>
+			<cc><t>826</t><v id="P">7257</v></cc>
+			<cc><t>840</t><v id="P">7172</v></cc>
+			<cc><t>856</t><v id="P">7087</v></cc>
+			<cc><t>876</t><v id="P">7002</v></cc>
+			<cc><t>880</t><v id="P">6917</v></cc>
+			<cc><t>890</t><v id="P">6832</v></cc>
+			<cc><t>910</t><v id="P">6747</v></cc>
+			<cc><t>916</t><v id="P">6663</v></cc>
+			<cc><t>920</t><v id="P">6578</v></cc>
+			<cc><t>936</t><v id="P">6493</v></cc>
+			<cc><t>956</t><v id="P">6408</v></cc>
+			<cc><t>970</t><v id="P">6323</v></cc>
+			<cc><t>980</t><v id="P">6238</v></cc>
+			<cc><t>1016</t><v id="P">6153</v></cc>
+			<cc><t>1026</t><v id="P">6068</v></cc>
+			<cc><t>1040</t><v id="P">5983</v></cc>
+			<cc><t>1066</t><v id="P">5899</v></cc>
+			<cc><t>1076</t><v id="P">5814</v></cc>
+			<cc><t>1080</t><v id="P">5729</v></cc>
+			<cc><t>1086</t><v id="P">5644</v></cc>
+			<cc><t>1096</t><v id="P">5559</v></cc>
+			<cc><t>1106</t><v id="P">5474</v></cc>
+			<cc><t>1120</t><v id="P">5389</v></cc>
+			<cc><t>1136</t><v id="P">5304</v></cc>
+			<cc><t>1150</t><v id="P">5219</v></cc>
+			<cc><t>1156</t><v id="P">5135</v></cc>
+			<cc><t>1166</t><v id="P">5050</v></cc>
+			<cc><t>1170</t><v id="P">4965</v></cc>
+			<cc><t>1190</t><v id="P">4880</v></cc>
+			<cc><t>1200</t><v id="P">4795</v></cc>
+			<cc><t>1206</t><v id="P">4710</v></cc>
+			<cc><t>1220</t><v id="P">4540</v></cc>
+			<cc><t>1226</t><v id="P">4456</v></cc>
+			<cc><t>1230</t><v id="P">4371</v></cc>
+			<cc><t>1240</t><v id="P">4286</v></cc>
+			<cc><t>1260</t><v id="P">4201</v></cc>
+			<cc><t>1266</t><v id="P">4116</v></cc>
+			<cc><t>1270</t><v id="P">4031</v></cc>
+			<cc><t>1286</t><v id="P">3946</v></cc>
+			<cc><t>1296</t><v id="P">3861</v></cc>
+			<cc><t>1316</t><v id="P">3776</v></cc>
+			<cc><t>1326</t><v id="P">3607</v></cc>
+			<cc><t>1330</t><v id="P">3522</v></cc>
+			<cc><t>1336</t><v id="P">3437</v></cc>
+			<cc><t>1340</t><v id="P">3352</v></cc>
+			<cc><t>1346</t><v id="P">3267</v></cc>
+			<cc><t>1350</t><v id="P">3182</v></cc>
+			<cc><t>1356</t><v id="P">3097</v></cc>
+			<cc><t>1366</t><v id="P">3012</v></cc>
+			<cc><t>1376</t><v id="P">2928</v></cc>
+			<cc><t>1386</t><v id="P">2843</v></cc>
+			<cc><t>1390</t><v id="P">2758</v></cc>
+			<cc><t>1396</t><v id="P">2588</v></cc>
+			<cc><t>1406</t><v id="P">2503</v></cc>
+			<cc><t>1410</t><v id="P">2333</v></cc>
+			<cc><t>1416</t><v id="P">2248</v></cc>
+			<cc><t>1420</t><v id="P">2164</v></cc>
+			<cc><t>1430</t><v id="P">2079</v></cc>
+			<cc><t>1436</t><v id="P">1994</v></cc>
+			<cc><t>1440</t><v id="P">1909</v></cc>
+			<cc><t>1446</t><v id="P">1824</v></cc>
+			<cc><t>1450</t><v id="P">1654</v></cc>
+			<cc><t>1456</t><v id="P">1569</v></cc>
+			<cc><t>1460</t><v id="P">1485</v></cc>
+			<cc><t>1466</t><v id="P">1400</v></cc>
+			<cc><t>1470</t><v id="P">1315</v></cc>
+			<cc><t>1476</t><v id="P">1230</v></cc>
+			<cc><t>1480</t><v id="P">1060</v></cc>
+			<cc><t>1490</t><v id="P">975</v></cc>
+			<cc><t>1496</t><v id="P">805</v></cc>
+			<cc><t>1500</t><v id="P">636</v></cc>
+			<cc><t>1510</t><v id="P">551</v></cc>
+			<cc><t>1516</t><v id="P">466</v></cc>
+			<cc><t>1520</t><v id="P">296</v></cc>
+			<cc><t>1526</t><v id="P">211</v></cc>
+			<cc><t>1530</t><v id="P">0</v></cc>
+			<cc><t>1536</t><v id="P">-128</v></cc>
+			<cc><t>1540</t><v id="P">-213</v></cc>
+			<cc><t>1546</t><v id="P">-298</v></cc>
+			<cc><t>1550</t><v id="P">-383</v></cc>
+			<cc><t>1556</t><v id="P">-468</v></cc>
+			<cc><t>1560</t><v id="P">-553</v></cc>
+			<cc><t>1576</t><v id="P">-638</v></cc>
+			<cc><t>1580</t><v id="P">-892</v></cc>
+			<cc><t>1586</t><v id="P">-1232</v></cc>
+			<cc><t>1590</t><v id="P">-1317</v></cc>
+			<cc><t>1596</t><v id="P">-1402</v></cc>
+			<cc><t>1600</t><v id="P">-1487</v></cc>
+			<cc><t>1606</t><v id="P">-1571</v></cc>
+			<cc><t>1610</t><v id="P">-1656</v></cc>
+			<cc><t>1616</t><v id="P">-1741</v></cc>
+			<cc><t>1620</t><v id="P">-1826</v></cc>
+			<cc><t>1626</t><v id="P">-2166</v></cc>
+			<cc><t>1630</t><v id="P">-2250</v></cc>
+			<cc><t>1636</t><v id="P">-2335</v></cc>
+			<cc><t>1640</t><v id="P">-2420</v></cc>
+			<cc><t>1646</t><v id="P">-2505</v></cc>
+			<cc><t>1650</t><v id="P">-2590</v></cc>
+			<cc><t>1656</t><v id="P">-2760</v></cc>
+			<cc><t>1660</t><v id="P">-2845</v></cc>
+			<cc><t>1666</t><v id="P">-2930</v></cc>
+			<cc><t>1670</t><v id="P">-3099</v></cc>
+			<cc><t>1676</t><v id="P">-3184</v></cc>
+			<cc><t>1680</t><v id="P">-3354</v></cc>
+			<cc><t>1686</t><v id="P">-3694</v></cc>
+			<cc><t>1696</t><v id="P">-3778</v></cc>
+			<cc><t>1700</t><v id="P">-3863</v></cc>
+			<cc><t>1706</t><v id="P">-3948</v></cc>
+			<cc><t>1710</t><v id="P">-4033</v></cc>
+			<cc><t>1716</t><v id="P">-4118</v></cc>
+			<cc><t>1720</t><v id="P">-4203</v></cc>
+			<cc><t>1726</t><v id="P">-4288</v></cc>
+			<cc><t>1730</t><v id="P">-4373</v></cc>
+			<cc><t>1736</t><v id="P">-4542</v></cc>
+			<cc><t>1740</t><v id="P">-4712</v></cc>
+			<cc><t>1746</t><v id="P">-4967</v></cc>
+			<cc><t>1750</t><v id="P">-5052</v></cc>
+			<cc><t>1756</t><v id="P">-5221</v></cc>
+			<cc><t>1760</t><v id="P">-5391</v></cc>
+			<cc><t>1766</t><v id="P">-5561</v></cc>
+			<cc><t>1770</t><v id="P">-5646</v></cc>
+			<cc><t>1776</t><v id="P">-5816</v></cc>
+			<cc><t>1780</t><v id="P">-6155</v></cc>
+			<cc><t>1790</t><v id="P">-6240</v></cc>
+			<cc><t>1796</t><v id="P">-6410</v></cc>
+			<cc><t>1800</t><v id="P">-6495</v></cc>
+			<cc><t>1806</t><v id="P">-6665</v></cc>
+			<cc><t>1816</t><v id="P">-6749</v></cc>
+			<cc><t>1820</t><v id="P">-6834</v></cc>
+			<cc><t>1826</t><v id="P">-7174</v></cc>
+			<cc><t>1830</t><v id="P">-7259</v></cc>
+			<cc><t>1836</t><v id="P">-7344</v></cc>
+			<cc><t>1840</t><v id="P">-7429</v></cc>
+			<cc><t>1846</t><v id="P">-7513</v></cc>
+			<cc><t>1850</t><v id="P">-7598</v></cc>
+			<cc><t>1860</t><v id="P">-7768</v></cc>
+			<cc><t>1866</t><v id="P">-7853</v></cc>
+			<cc><t>1870</t><v id="P">-7938</v></cc>
+			<cc><t>1876</t><v id="P">-8023</v></cc>
+			<cc><t>1880</t><v id="P">-8192</v></cc>
+			<cc><t>2690</t><v id="P">-7938</v></cc>
+			<cc><t>2696</t><v id="P">-7598</v></cc>
+			<cc><t>2700</t><v id="P">-7513</v></cc>
+			<cc><t>2706</t><v id="P">-7344</v></cc>
+			<cc><t>2710</t><v id="P">-7174</v></cc>
+			<cc><t>2716</t><v id="P">-7089</v></cc>
+			<cc><t>2720</t><v id="P">-6919</v></cc>
+			<cc><t>2726</t><v id="P">-6749</v></cc>
+			<cc><t>2730</t><v id="P">-6665</v></cc>
+			<cc><t>2736</t><v id="P">-6495</v></cc>
+			<cc><t>2740</t><v id="P">-6325</v></cc>
+			<cc><t>2746</t><v id="P">-6240</v></cc>
+			<cc><t>2750</t><v id="P">-6070</v></cc>
+			<cc><t>2756</t><v id="P">-5901</v></cc>
+			<cc><t>2760</t><v id="P">-5731</v></cc>
+			<cc><t>2766</t><v id="P">-5561</v></cc>
+			<cc><t>2770</t><v id="P">-5391</v></cc>
+			<cc><t>2776</t><v id="P">-5221</v></cc>
+			<cc><t>2780</t><v id="P">-4967</v></cc>
+			<cc><t>2786</t><v id="P">-4797</v></cc>
+			<cc><t>2790</t><v id="P">-4627</v></cc>
+			<cc><t>2796</t><v id="P">-4458</v></cc>
+			<cc><t>2800</t><v id="P">-4203</v></cc>
+			<cc><t>2806</t><v id="P">-4033</v></cc>
+			<cc><t>2810</t><v id="P">-3863</v></cc>
+			<cc><t>2816</t><v id="P">-3609</v></cc>
+			<cc><t>2820</t><v id="P">-3099</v></cc>
+			<cc><t>2826</t><v id="P">-2845</v></cc>
+			<cc><t>2830</t><v id="P">-2590</v></cc>
+			<cc><t>2836</t><v id="P">-2335</v></cc>
+			<cc><t>2840</t><v id="P">-2081</v></cc>
+			<cc><t>2846</t><v id="P">-1826</v></cc>
+			<cc><t>2850</t><v id="P">-1571</v></cc>
+			<cc><t>2856</t><v id="P">-1317</v></cc>
+			<cc><t>2860</t><v id="P">-723</v></cc>
+			<cc><t>2866</t><v id="P">-468</v></cc>
+			<cc><t>2870</t><v id="P">-128</v></cc>
+			<cc><t>2876</t><v id="P">211</v></cc>
+			<cc><t>2880</t><v id="P">551</v></cc>
+			<cc><t>2886</t><v id="P">636</v></cc>
+			<cc><t>2890</t><v id="P">805</v></cc>
+			<cc><t>2896</t><v id="P">975</v></cc>
+			<cc><t>2900</t><v id="P">1145</v></cc>
+			<cc><t>2906</t><v id="P">1400</v></cc>
+			<cc><t>2910</t><v id="P">1569</v></cc>
+			<cc><t>2916</t><v id="P">1739</v></cc>
+			<cc><t>2920</t><v id="P">1994</v></cc>
+			<cc><t>2926</t><v id="P">2164</v></cc>
+			<cc><t>2930</t><v id="P">2333</v></cc>
+			<cc><t>2936</t><v id="P">2418</v></cc>
+			<cc><t>2940</t><v id="P">2588</v></cc>
+			<cc><t>2946</t><v id="P">2758</v></cc>
+			<cc><t>2950</t><v id="P">2928</v></cc>
+			<cc><t>2956</t><v id="P">3097</v></cc>
+			<cc><t>2960</t><v id="P">3267</v></cc>
+			<cc><t>2966</t><v id="P">3352</v></cc>
+			<cc><t>2970</t><v id="P">3437</v></cc>
+			<cc><t>2976</t><v id="P">3522</v></cc>
+			<cc><t>2980</t><v id="P">3607</v></cc>
+			<cc><t>2986</t><v id="P">3692</v></cc>
+			<cc><t>2990</t><v id="P">3861</v></cc>
+			<cc><t>2996</t><v id="P">3946</v></cc>
+			<cc><t>3000</t><v id="P">4031</v></cc>
+			<cc><t>3006</t><v id="P">4116</v></cc>
+			<cc><t>3010</t><v id="P">4201</v></cc>
+			<cc><t>3016</t><v id="P">4286</v></cc>
+			<cc><t>3020</t><v id="P">4456</v></cc>
+			<cc><t>3026</t><v id="P">4625</v></cc>
+			<cc><t>3036</t><v id="P">4710</v></cc>
+			<cc><t>3040</t><v id="P">4795</v></cc>
+			<cc><t>3046</t><v id="P">4880</v></cc>
+			<cc><t>3050</t><v id="P">4965</v></cc>
+			<cc><t>3056</t><v id="P">5135</v></cc>
+			<cc><t>3060</t><v id="P">5219</v></cc>
+			<cc><t>3066</t><v id="P">5304</v></cc>
+			<cc><t>3070</t><v id="P">5474</v></cc>
+			<cc><t>3080</t><v id="P">5559</v></cc>
+			<cc><t>3086</t><v id="P">5644</v></cc>
+			<cc><t>3096</t><v id="P">5729</v></cc>
+			<cc><t>3100</t><v id="P">5814</v></cc>
+			<cc><t>3110</t><v id="P">5899</v></cc>
+			<cc><t>3116</t><v id="P">5983</v></cc>
+			<cc><t>3120</t><v id="P">6068</v></cc>
+			<cc><t>3126</t><v id="P">6153</v></cc>
+			<cc><t>3136</t><v id="P">6238</v></cc>
+			<cc><t>3140</t><v id="P">6323</v></cc>
+			<cc><t>3146</t><v id="P">6408</v></cc>
+			<cc><t>3150</t><v id="P">6493</v></cc>
+			<cc><t>3156</t><v id="P">6578</v></cc>
+			<cc><t>3160</t><v id="P">6663</v></cc>
+			<cc><t>3166</t><v id="P">6747</v></cc>
+			<cc><t>3170</t><v id="P">6832</v></cc>
+			<cc><t>3176</t><v id="P">6917</v></cc>
+			<cc><t>3180</t><v id="P">7087</v></cc>
+			<cc><t>3190</t><v id="P">7172</v></cc>
+			<cc><t>3196</t><v id="P">7257</v></cc>
+			<cc><t>3200</t><v id="P">7342</v></cc>
+			<cc><t>3210</t><v id="P">7427</v></cc>
+			<cc><t>3216</t><v id="P">7511</v></cc>
+			<cc><t>3220</t><v id="P">7596</v></cc>
+			<cc><t>3226</t><v id="P">7681</v></cc>
+			<cc><t>3230</t><v id="P">7766</v></cc>
+			<cc><t>3236</t><v id="P">7851</v></cc>
+			<cc><t>3246</t><v id="P">7936</v></cc>
+			<cc><t>3256</t><v id="P">8021</v></cc>
+			<cc><t>3266</t><v id="P">8106</v></cc>
+			<cc><t>3270</t><v id="P">8191</v></cc>
+			<cc><t>3806</t><v id="P">8106</v></cc>
+			<cc><t>3810</t><v id="P">8021</v></cc>
+			<cc><t>3816</t><v id="P">7936</v></cc>
+			<cc><t>3820</t><v id="P">7851</v></cc>
+			<cc><t>3826</t><v id="P">7766</v></cc>
+			<cc><t>3830</t><v id="P">7681</v></cc>
+			<cc><t>3836</t><v id="P">7596</v></cc>
+			<cc><t>3840</t><v id="P">7511</v></cc>
+			<cc><t>3846</t><v id="P">7427</v></cc>
+			<cc><t>3850</t><v id="P">7342</v></cc>
+			<cc><t>3856</t><v id="P">7257</v></cc>
+			<cc><t>3860</t><v id="P">7172</v></cc>
+			<cc><t>3866</t><v id="P">7087</v></cc>
+			<cc><t>3870</t><v id="P">7002</v></cc>
+			<cc><t>3876</t><v id="P">6917</v></cc>
+			<cc><t>3880</t><v id="P">6832</v></cc>
+			<cc><t>3886</t><v id="P">6747</v></cc>
+			<cc><t>3890</t><v id="P">6663</v></cc>
+			<cc><t>3896</t><v id="P">6578</v></cc>
+			<cc><t>3900</t><v id="P">6493</v></cc>
+			<cc><t>3906</t><v id="P">6408</v></cc>
+			<cc><t>3910</t><v id="P">6323</v></cc>
+			<cc><t>3916</t><v id="P">6238</v></cc>
+			<cc><t>3920</t><v id="P">6153</v></cc>
+			<cc><t>3926</t><v id="P">6068</v></cc>
+			<cc><t>3930</t><v id="P">5983</v></cc>
+			<cc><t>3936</t><v id="P">5814</v></cc>
+			<cc><t>3940</t><v id="P">5729</v></cc>
+			<cc><t>3946</t><v id="P">5644</v></cc>
+			<cc><t>3950</t><v id="P">5559</v></cc>
+			<cc><t>3956</t><v id="P">5474</v></cc>
+			<cc><t>3960</t><v id="P">5304</v></cc>
+			<cc><t>3966</t><v id="P">5219</v></cc>
+			<cc><t>3970</t><v id="P">5050</v></cc>
+			<cc><t>3976</t><v id="P">4880</v></cc>
+			<cc><t>3980</t><v id="P">4710</v></cc>
+			<cc><t>3986</t><v id="P">4540</v></cc>
+			<cc><t>3990</t><v id="P">4371</v></cc>
+			<cc><t>3996</t><v id="P">4286</v></cc>
+			<cc><t>4000</t><v id="P">4116</v></cc>
+			<cc><t>4006</t><v id="P">4031</v></cc>
+			<cc><t>4010</t><v id="P">3861</v></cc>
+			<cc><t>4016</t><v id="P">3692</v></cc>
+			<cc><t>4020</t><v id="P">3607</v></cc>
+			<cc><t>4026</t><v id="P">3437</v></cc>
+			<cc><t>4030</t><v id="P">3352</v></cc>
+			<cc><t>4036</t><v id="P">3182</v></cc>
+			<cc><t>4040</t><v id="P">3012</v></cc>
+			<cc><t>4046</t><v id="P">2928</v></cc>
+			<cc><t>4050</t><v id="P">2758</v></cc>
+			<cc><t>4056</t><v id="P">2588</v></cc>
+			<cc><t>4060</t><v id="P">2418</v></cc>
+			<cc><t>4066</t><v id="P">2248</v></cc>
+			<cc><t>4070</t><v id="P">2079</v></cc>
+			<cc><t>4076</t><v id="P">1994</v></cc>
+			<cc><t>4080</t><v id="P">1824</v></cc>
+			<cc><t>4086</t><v id="P">1654</v></cc>
+			<cc><t>4090</t><v id="P">1485</v></cc>
+			<cc><t>4096</t><v id="P">1400</v></cc>
+			<cc><t>4100</t><v id="P">1230</v></cc>
+			<cc><t>4106</t><v id="P">1060</v></cc>
+			<cc><t>4110</t><v id="P">890</v></cc>
+			<cc><t>4116</t><v id="P">805</v></cc>
+			<cc><t>4120</t><v id="P">636</v></cc>
+			<cc><t>4126</t><v id="P">466</v></cc>
+			<cc><t>4130</t><v id="P">296</v></cc>
+			<cc><t>4136</t><v id="P">211</v></cc>
+			<cc><t>4140</t><v id="P">41</v></cc>
+			<cc><t>4146</t><v id="P">-128</v></cc>
+			<cc><t>4150</t><v id="P">-298</v></cc>
+			<cc><t>4156</t><v id="P">-383</v></cc>
+			<cc><t>4160</t><v id="P">-553</v></cc>
+			<cc><t>4166</t><v id="P">-723</v></cc>
+			<cc><t>4170</t><v id="P">-892</v></cc>
+			<cc><t>4176</t><v id="P">-1062</v></cc>
+			<cc><t>4180</t><v id="P">-1232</v></cc>
+			<cc><t>4186</t><v id="P">-1317</v></cc>
+			<cc><t>4190</t><v id="P">-1487</v></cc>
+			<cc><t>4196</t><v id="P">-1571</v></cc>
+			<cc><t>4200</t><v id="P">-1741</v></cc>
+			<cc><t>4206</t><v id="P">-1826</v></cc>
+			<cc><t>4210</t><v id="P">-1996</v></cc>
+			<cc><t>4216</t><v id="P">-2166</v></cc>
+			<cc><t>4220</t><v id="P">-2250</v></cc>
+			<cc><t>4226</t><v id="P">-2420</v></cc>
+			<cc><t>4230</t><v id="P">-2590</v></cc>
+			<cc><t>4236</t><v id="P">-2675</v></cc>
+			<cc><t>4240</t><v id="P">-2845</v></cc>
+			<cc><t>4246</t><v id="P">-3014</v></cc>
+			<cc><t>4250</t><v id="P">-3184</v></cc>
+			<cc><t>4256</t><v id="P">-3269</v></cc>
+			<cc><t>4260</t><v id="P">-3439</v></cc>
+			<cc><t>4266</t><v id="P">-3609</v></cc>
+			<cc><t>4270</t><v id="P">-3694</v></cc>
+			<cc><t>4276</t><v id="P">-3863</v></cc>
+			<cc><t>4280</t><v id="P">-4033</v></cc>
+			<cc><t>4286</t><v id="P">-4203</v></cc>
+			<cc><t>4290</t><v id="P">-4288</v></cc>
+			<cc><t>4296</t><v id="P">-4458</v></cc>
+			<cc><t>4300</t><v id="P">-4627</v></cc>
+			<cc><t>4306</t><v id="P">-4797</v></cc>
+			<cc><t>4310</t><v id="P">-4882</v></cc>
+			<cc><t>4316</t><v id="P">-5052</v></cc>
+			<cc><t>4320</t><v id="P">-5137</v></cc>
+			<cc><t>4326</t><v id="P">-5306</v></cc>
+			<cc><t>4330</t><v id="P">-5391</v></cc>
+			<cc><t>4336</t><v id="P">-5561</v></cc>
+			<cc><t>4340</t><v id="P">-5731</v></cc>
+			<cc><t>4346</t><v id="P">-5816</v></cc>
+			<cc><t>4350</t><v id="P">-5985</v></cc>
+			<cc><t>4356</t><v id="P">-6070</v></cc>
+			<cc><t>4360</t><v id="P">-6240</v></cc>
+			<cc><t>4366</t><v id="P">-6325</v></cc>
+			<cc><t>4370</t><v id="P">-6495</v></cc>
+			<cc><t>4376</t><v id="P">-6580</v></cc>
+			<cc><t>4380</t><v id="P">-6749</v></cc>
+			<cc><t>4386</t><v id="P">-6834</v></cc>
+			<cc><t>4390</t><v id="P">-7004</v></cc>
+			<cc><t>4396</t><v id="P">-7089</v></cc>
+			<cc><t>4400</t><v id="P">-7259</v></cc>
+			<cc><t>4406</t><v id="P">-7344</v></cc>
+			<cc><t>4410</t><v id="P">-7513</v></cc>
+			<cc><t>4416</t><v id="P">-7683</v></cc>
+			<cc><t>4420</t><v id="P">-7768</v></cc>
+			<cc><t>4426</t><v id="P">-7853</v></cc>
+			<cc><t>4430</t><v id="P">-7938</v></cc>
+			<cc><t>4436</t><v id="P">-8023</v></cc>
+			<cc><t>4440</t><v id="P">-8108</v></cc>
+			<cc><t>4446</t><v id="P">-8192</v></cc>
+			<note>
+				<t>0</t>
+				<dur>960</dur>
+				<n>72</n>
+				<v>64</v>
+				<y><![CDATA[sa]]></y>
+				<p><![CDATA[s a]]></p>
+				<nStyle>
+					<v id="accent">50</v>
+					<v id="bendDep">0</v>
+					<v id="bendLen">0</v>
+					<v id="decay">50</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">66</v>
+					<v id="vibType">1</v>
+					<seq id="vibDep">
+						<cc><p>22323</p><v>64</v></cc>
+					</seq>
+					<seq id="vibRate">
+						<cc><p>22323</p><v>50</v></cc>
+					</seq>
+				</nStyle>
+			</note>
+			<note>
+				<t>960</t>
+				<dur>960</dur>
+				<n>67</n>
+				<v>64</v>
+				<y><![CDATA[ka]]></y>
+				<p><![CDATA[k a]]></p>
+				<nStyle>
+					<v id="accent">50</v>
+					<v id="bendDep">0</v>
+					<v id="bendLen">0</v>
+					<v id="decay">50</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">66</v>
+					<v id="vibType">1</v>
+					<seq id="vibDep">
+						<cc><p>22323</p><v>64</v></cc>
+					</seq>
+					<seq id="vibRate">
+						<cc><p>22323</p><v>50</v></cc>
+					</seq>
+				</nStyle>
+			</note>
+			<plane>0</plane>
+		</vsPart>
+		<vsPart>
+			<t>17760</t>
+			<playTime>3840</playTime>
+			<name><![CDATA[BRI]]></name>
+			<comment><![CDATA[New Musical Part]]></comment>
+			<sPlug>
+				<id><![CDATA[ACA9C502-A04B-42b5-B2EB-5CEA36D16FCE]]></id>
+				<name><![CDATA[VOCALOID2 Compatible Style]]></name>
+				<version><![CDATA[3.0.0.1]]></version>
+			</sPlug>
+			<pStyle>
+				<v id="accent">50</v>
+				<v id="bendDep">8</v>
+				<v id="bendLen">0</v>
+				<v id="decay">50</v>
+				<v id="fallPort">0</v>
+				<v id="opening">127</v>
+				<v id="risePort">0</v>
+			</pStyle>
+			<singer>
+				<t>0</t>
+				<bs>0</bs>
+				<pc>0</pc>
+			</singer>
+			<note>
+				<t>480</t>
+				<dur>480</dur>
+				<n>72</n>
+				<v>64</v>
+				<y><![CDATA[a]]></y>
+				<p><![CDATA[a]]></p>
+				<nStyle>
+					<v id="accent">50</v>
+					<v id="bendDep">0</v>
+					<v id="bendLen">0</v>
+					<v id="decay">50</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">66</v>
+					<v id="vibType">1</v>
+					<seq id="vibDep">
+						<cc><p>22391</p><v>64</v></cc>
+					</seq>
+					<seq id="vibRate">
+						<cc><p>22391</p><v>50</v></cc>
+					</seq>
+				</nStyle>
+			</note>
+			<plane>0</plane>
+		</vsPart>
+		<vsPart>
+			<t>26880</t>
+			<playTime>5280</playTime>
+			<name><![CDATA[GEN is TRACK]]></name>
+			<comment><![CDATA[New Musical Part]]></comment>
+			<sPlug>
+				<id><![CDATA[ACA9C502-A04B-42b5-B2EB-5CEA36D16FCE]]></id>
+				<name><![CDATA[VOCALOID2 Compatible Style]]></name>
+				<version><![CDATA[3.0.0.1]]></version>
+			</sPlug>
+			<pStyle>
+				<v id="accent">50</v>
+				<v id="bendDep">8</v>
+				<v id="bendLen">0</v>
+				<v id="decay">50</v>
+				<v id="fallPort">0</v>
+				<v id="opening">127</v>
+				<v id="risePort">0</v>
+			</pStyle>
+			<singer>
+				<t>0</t>
+				<bs>0</bs>
+				<pc>0</pc>
+			</singer>
+			<cc><t>0</t><v id="G">67</v></cc>
+			<cc><t>10</t><v id="G">68</v></cc>
+			<cc><t>20</t><v id="G">69</v></cc>
+			<cc><t>36</t><v id="G">70</v></cc>
+			<cc><t>40</t><v id="G">71</v></cc>
+			<cc><t>56</t><v id="G">72</v></cc>
+			<cc><t>60</t><v id="G">73</v></cc>
+			<cc><t>76</t><v id="G">74</v></cc>
+			<cc><t>80</t><v id="G">75</v></cc>
+			<cc><t>96</t><v id="G">76</v></cc>
+			<cc><t>106</t><v id="G">77</v></cc>
+			<cc><t>115</t><v id="G">73</v></cc>
+			<cc><t>121</t><v id="G">75</v></cc>
+			<cc><t>125</t><v id="G">80</v></cc>
+			<cc><t>131</t><v id="G">85</v></cc>
+			<cc><t>135</t><v id="G">86</v></cc>
+			<cc><t>141</t><v id="G">92</v></cc>
+			<cc><t>145</t><v id="G">94</v></cc>
+			<cc><t>151</t><v id="G">96</v></cc>
+			<cc><t>155</t><v id="G">99</v></cc>
+			<cc><t>161</t><v id="G">101</v></cc>
+			<cc><t>165</t><v id="G">104</v></cc>
+			<cc><t>171</t><v id="G">107</v></cc>
+			<cc><t>175</t><v id="G">109</v></cc>
+			<cc><t>181</t><v id="G">113</v></cc>
+			<cc><t>185</t><v id="G">114</v></cc>
+			<cc><t>191</t><v id="G">115</v></cc>
+			<cc><t>195</t><v id="G">119</v></cc>
+			<cc><t>211</t><v id="G">121</v></cc>
+			<cc><t>215</t><v id="G">125</v></cc>
+			<cc><t>221</t><v id="G">127</v></cc>
+			<cc><t>775</t><v id="G">126</v></cc>
+			<cc><t>785</t><v id="G">125</v></cc>
+			<cc><t>805</t><v id="G">124</v></cc>
+			<cc><t>825</t><v id="G">123</v></cc>
+			<cc><t>841</t><v id="G">122</v></cc>
+			<cc><t>851</t><v id="G">121</v></cc>
+			<cc><t>861</t><v id="G">120</v></cc>
+			<cc><t>865</t><v id="G">119</v></cc>
+			<cc><t>875</t><v id="G">118</v></cc>
+			<cc><t>885</t><v id="G">117</v></cc>
+			<cc><t>901</t><v id="G">116</v></cc>
+			<cc><t>905</t><v id="G">115</v></cc>
+			<cc><t>921</t><v id="G">114</v></cc>
+			<cc><t>925</t><v id="G">113</v></cc>
+			<cc><t>935</t><v id="G">112</v></cc>
+			<cc><t>941</t><v id="G">111</v></cc>
+			<cc><t>945</t><v id="G">110</v></cc>
+			<cc><t>951</t><v id="G">109</v></cc>
+			<cc><t>955</t><v id="G">108</v></cc>
+			<cc><t>961</t><v id="G">107</v></cc>
+			<cc><t>971</t><v id="G">106</v></cc>
+			<cc><t>975</t><v id="G">105</v></cc>
+			<cc><t>985</t><v id="G">104</v></cc>
+			<cc><t>991</t><v id="G">103</v></cc>
+			<cc><t>995</t><v id="G">101</v></cc>
+			<cc><t>1001</t><v id="G">100</v></cc>
+			<cc><t>1005</t><v id="G">99</v></cc>
+			<cc><t>1011</t><v id="G">98</v></cc>
+			<cc><t>1015</t><v id="G">97</v></cc>
+			<cc><t>1021</t><v id="G">96</v></cc>
+			<cc><t>1025</t><v id="G">95</v></cc>
+			<cc><t>1031</t><v id="G">94</v></cc>
+			<cc><t>1041</t><v id="G">92</v></cc>
+			<cc><t>1051</t><v id="G">90</v></cc>
+			<cc><t>1061</t><v id="G">88</v></cc>
+			<cc><t>1065</t><v id="G">87</v></cc>
+			<cc><t>1071</t><v id="G">86</v></cc>
+			<cc><t>1075</t><v id="G">84</v></cc>
+			<cc><t>1085</t><v id="G">83</v></cc>
+			<cc><t>1091</t><v id="G">82</v></cc>
+			<cc><t>1095</t><v id="G">81</v></cc>
+			<cc><t>1101</t><v id="G">80</v></cc>
+			<cc><t>1105</t><v id="G">78</v></cc>
+			<cc><t>1111</t><v id="G">77</v></cc>
+			<cc><t>1115</t><v id="G">76</v></cc>
+			<cc><t>1121</t><v id="G">75</v></cc>
+			<cc><t>1125</t><v id="G">73</v></cc>
+			<cc><t>1131</t><v id="G">72</v></cc>
+			<cc><t>1135</t><v id="G">71</v></cc>
+			<cc><t>1141</t><v id="G">69</v></cc>
+			<cc><t>1151</t><v id="G">67</v></cc>
+			<cc><t>1161</t><v id="G">65</v></cc>
+			<cc><t>1171</t><v id="G">63</v></cc>
+			<cc><t>1175</t><v id="G">62</v></cc>
+			<cc><t>1181</t><v id="G">60</v></cc>
+			<cc><t>1185</t><v id="G">57</v></cc>
+			<cc><t>1191</t><v id="G">56</v></cc>
+			<cc><t>1195</t><v id="G">55</v></cc>
+			<cc><t>1201</t><v id="G">53</v></cc>
+			<cc><t>1205</t><v id="G">52</v></cc>
+			<cc><t>1211</t><v id="G">50</v></cc>
+			<cc><t>1221</t><v id="G">48</v></cc>
+			<cc><t>1225</t><v id="G">47</v></cc>
+			<cc><t>1231</t><v id="G">46</v></cc>
+			<cc><t>1235</t><v id="G">44</v></cc>
+			<cc><t>1241</t><v id="G">43</v></cc>
+			<cc><t>1245</t><v id="G">42</v></cc>
+			<cc><t>1251</t><v id="G">40</v></cc>
+			<cc><t>1255</t><v id="G">38</v></cc>
+			<cc><t>1261</t><v id="G">37</v></cc>
+			<cc><t>1265</t><v id="G">36</v></cc>
+			<cc><t>1271</t><v id="G">34</v></cc>
+			<cc><t>1275</t><v id="G">33</v></cc>
+			<cc><t>1281</t><v id="G">32</v></cc>
+			<cc><t>1285</t><v id="G">30</v></cc>
+			<cc><t>1291</t><v id="G">29</v></cc>
+			<cc><t>1295</t><v id="G">28</v></cc>
+			<cc><t>1301</t><v id="G">26</v></cc>
+			<cc><t>1305</t><v id="G">25</v></cc>
+			<cc><t>1311</t><v id="G">24</v></cc>
+			<cc><t>1315</t><v id="G">23</v></cc>
+			<cc><t>1321</t><v id="G">22</v></cc>
+			<cc><t>1325</t><v id="G">21</v></cc>
+			<cc><t>1335</t><v id="G">19</v></cc>
+			<cc><t>1341</t><v id="G">18</v></cc>
+			<cc><t>1345</t><v id="G">17</v></cc>
+			<cc><t>1355</t><v id="G">16</v></cc>
+			<cc><t>1361</t><v id="G">15</v></cc>
+			<cc><t>1365</t><v id="G">14</v></cc>
+			<cc><t>1371</t><v id="G">13</v></cc>
+			<cc><t>1375</t><v id="G">11</v></cc>
+			<cc><t>1391</t><v id="G">10</v></cc>
+			<cc><t>1395</t><v id="G">9</v></cc>
+			<cc><t>1405</t><v id="G">8</v></cc>
+			<cc><t>1411</t><v id="G">7</v></cc>
+			<cc><t>1415</t><v id="G">6</v></cc>
+			<cc><t>1421</t><v id="G">5</v></cc>
+			<cc><t>1431</t><v id="G">4</v></cc>
+			<cc><t>1435</t><v id="G">3</v></cc>
+			<cc><t>1441</t><v id="G">2</v></cc>
+			<cc><t>1445</t><v id="G">1</v></cc>
+			<cc><t>1465</t><v id="G">0</v></cc>
+			<cc><t>1995</t><v id="G">1</v></cc>
+			<cc><t>2025</t><v id="G">2</v></cc>
+			<cc><t>2035</t><v id="G">3</v></cc>
+			<cc><t>2051</t><v id="G">4</v></cc>
+			<cc><t>2061</t><v id="G">5</v></cc>
+			<cc><t>2075</t><v id="G">6</v></cc>
+			<cc><t>2081</t><v id="G">7</v></cc>
+			<cc><t>2095</t><v id="G">8</v></cc>
+			<cc><t>2105</t><v id="G">9</v></cc>
+			<cc><t>2121</t><v id="G">10</v></cc>
+			<cc><t>2125</t><v id="G">11</v></cc>
+			<cc><t>2135</t><v id="G">12</v></cc>
+			<cc><t>2141</t><v id="G">13</v></cc>
+			<cc><t>2151</t><v id="G">14</v></cc>
+			<cc><t>2155</t><v id="G">15</v></cc>
+			<cc><t>2165</t><v id="G">16</v></cc>
+			<cc><t>2171</t><v id="G">17</v></cc>
+			<cc><t>2181</t><v id="G">18</v></cc>
+			<cc><t>2185</t><v id="G">19</v></cc>
+			<cc><t>2195</t><v id="G">20</v></cc>
+			<cc><t>2201</t><v id="G">21</v></cc>
+			<cc><t>2211</t><v id="G">22</v></cc>
+			<cc><t>2215</t><v id="G">23</v></cc>
+			<cc><t>2225</t><v id="G">24</v></cc>
+			<cc><t>2231</t><v id="G">25</v></cc>
+			<cc><t>2235</t><v id="G">26</v></cc>
+			<cc><t>2241</t><v id="G">27</v></cc>
+			<cc><t>2245</t><v id="G">28</v></cc>
+			<cc><t>2251</t><v id="G">30</v></cc>
+			<cc><t>2261</t><v id="G">32</v></cc>
+			<cc><t>2265</t><v id="G">33</v></cc>
+			<cc><t>2271</t><v id="G">34</v></cc>
+			<cc><t>2275</t><v id="G">36</v></cc>
+			<cc><t>2281</t><v id="G">37</v></cc>
+			<cc><t>2285</t><v id="G">38</v></cc>
+			<cc><t>2291</t><v id="G">40</v></cc>
+			<cc><t>2295</t><v id="G">41</v></cc>
+			<cc><t>2301</t><v id="G">42</v></cc>
+			<cc><t>2305</t><v id="G">43</v></cc>
+			<cc><t>2311</t><v id="G">44</v></cc>
+			<cc><t>2315</t><v id="G">46</v></cc>
+			<cc><t>2321</t><v id="G">47</v></cc>
+			<cc><t>2325</t><v id="G">48</v></cc>
+			<cc><t>2331</t><v id="G">50</v></cc>
+			<cc><t>2335</t><v id="G">51</v></cc>
+			<cc><t>2341</t><v id="G">53</v></cc>
+			<cc><t>2345</t><v id="G">55</v></cc>
+			<cc><t>2351</t><v id="G">57</v></cc>
+			<cc><t>2355</t><v id="G">59</v></cc>
+			<cc><t>2361</t><v id="G">61</v></cc>
+			<cc><t>2365</t><v id="G">62</v></cc>
+			<cc><t>2371</t><v id="G">63</v></cc>
+			<cc><t>2375</t><v id="G">65</v></cc>
+			<cc><t>2381</t><v id="G">67</v></cc>
+			<cc><t>2385</t><v id="G">70</v></cc>
+			<cc><t>2391</t><v id="G">72</v></cc>
+			<cc><t>2395</t><v id="G">75</v></cc>
+			<cc><t>2401</t><v id="G">77</v></cc>
+			<cc><t>2405</t><v id="G">82</v></cc>
+			<cc><t>2411</t><v id="G">83</v></cc>
+			<cc><t>2415</t><v id="G">84</v></cc>
+			<cc><t>2421</t><v id="G">86</v></cc>
+			<cc><t>2431</t><v id="G">88</v></cc>
+			<cc><t>2435</t><v id="G">89</v></cc>
+			<cc><t>2441</t><v id="G">90</v></cc>
+			<cc><t>2445</t><v id="G">92</v></cc>
+			<cc><t>2451</t><v id="G">94</v></cc>
+			<cc><t>2455</t><v id="G">96</v></cc>
+			<cc><t>2461</t><v id="G">98</v></cc>
+			<cc><t>2465</t><v id="G">101</v></cc>
+			<cc><t>2471</t><v id="G">102</v></cc>
+			<cc><t>2475</t><v id="G">104</v></cc>
+			<cc><t>2481</t><v id="G">105</v></cc>
+			<cc><t>2485</t><v id="G">106</v></cc>
+			<cc><t>2491</t><v id="G">107</v></cc>
+			<cc><t>2495</t><v id="G">109</v></cc>
+			<cc><t>2501</t><v id="G">111</v></cc>
+			<cc><t>2505</t><v id="G">113</v></cc>
+			<cc><t>2511</t><v id="G">115</v></cc>
+			<cc><t>2515</t><v id="G">116</v></cc>
+			<cc><t>2521</t><v id="G">117</v></cc>
+			<cc><t>2531</t><v id="G">118</v></cc>
+			<cc><t>2535</t><v id="G">119</v></cc>
+			<cc><t>2541</t><v id="G">120</v></cc>
+			<cc><t>2545</t><v id="G">121</v></cc>
+			<cc><t>2551</t><v id="G">122</v></cc>
+			<cc><t>2555</t><v id="G">123</v></cc>
+			<cc><t>2561</t><v id="G">124</v></cc>
+			<cc><t>2565</t><v id="G">125</v></cc>
+			<cc><t>2581</t><v id="G">126</v></cc>
+			<cc><t>2595</t><v id="G">127</v></cc>
+			<cc><t>2985</t><v id="G">126</v></cc>
+			<cc><t>2995</t><v id="G">125</v></cc>
+			<cc><t>3015</t><v id="G">124</v></cc>
+			<cc><t>3025</t><v id="G">123</v></cc>
+			<cc><t>3045</t><v id="G">122</v></cc>
+			<cc><t>3055</t><v id="G">121</v></cc>
+			<cc><t>3075</t><v id="G">120</v></cc>
+			<cc><t>3085</t><v id="G">119</v></cc>
+			<cc><t>3101</t><v id="G">118</v></cc>
+			<cc><t>3105</t><v id="G">117</v></cc>
+			<cc><t>3115</t><v id="G">116</v></cc>
+			<cc><t>3121</t><v id="G">115</v></cc>
+			<cc><t>3131</t><v id="G">114</v></cc>
+			<cc><t>3135</t><v id="G">113</v></cc>
+			<cc><t>3151</t><v id="G">112</v></cc>
+			<cc><t>3161</t><v id="G">111</v></cc>
+			<cc><t>3175</t><v id="G">110</v></cc>
+			<cc><t>3181</t><v id="G">109</v></cc>
+			<cc><t>3195</t><v id="G">108</v></cc>
+			<cc><t>3201</t><v id="G">107</v></cc>
+			<cc><t>3215</t><v id="G">106</v></cc>
+			<cc><t>3221</t><v id="G">105</v></cc>
+			<cc><t>3235</t><v id="G">104</v></cc>
+			<cc><t>3245</t><v id="G">103</v></cc>
+			<cc><t>3255</t><v id="G">102</v></cc>
+			<cc><t>3261</t><v id="G">101</v></cc>
+			<cc><t>3265</t><v id="G">100</v></cc>
+			<cc><t>3275</t><v id="G">98</v></cc>
+			<cc><t>3291</t><v id="G">97</v></cc>
+			<cc><t>3301</t><v id="G">96</v></cc>
+			<cc><t>3315</t><v id="G">95</v></cc>
+			<cc><t>3321</t><v id="G">94</v></cc>
+			<cc><t>3331</t><v id="G">93</v></cc>
+			<cc><t>3335</t><v id="G">92</v></cc>
+			<cc><t>3345</t><v id="G">90</v></cc>
+			<cc><t>3355</t><v id="G">88</v></cc>
+			<cc><t>3365</t><v id="G">86</v></cc>
+			<cc><t>3381</t><v id="G">85</v></cc>
+			<cc><t>3385</t><v id="G">84</v></cc>
+			<cc><t>3395</t><v id="G">83</v></cc>
+			<cc><t>3401</t><v id="G">82</v></cc>
+			<cc><t>3411</t><v id="G">81</v></cc>
+			<cc><t>3415</t><v id="G">80</v></cc>
+			<cc><t>3425</t><v id="G">79</v></cc>
+			<cc><t>3431</t><v id="G">78</v></cc>
+			<cc><t>3441</t><v id="G">76</v></cc>
+			<cc><t>3445</t><v id="G">75</v></cc>
+			<cc><t>3461</t><v id="G">74</v></cc>
+			<cc><t>3465</t><v id="G">73</v></cc>
+			<cc><t>3475</t><v id="G">72</v></cc>
+			<cc><t>3481</t><v id="G">71</v></cc>
+			<cc><t>3495</t><v id="G">70</v></cc>
+			<cc><t>3501</t><v id="G">69</v></cc>
+			<cc><t>3505</t><v id="G">68</v></cc>
+			<cc><t>3511</t><v id="G">67</v></cc>
+			<cc><t>3515</t><v id="G">65</v></cc>
+			<cc><t>3525</t><v id="G">64</v></cc>
+			<cc><t>3531</t><v id="G">63</v></cc>
+			<cc><t>3535</t><v id="G">64</v></cc>
+			<cc><t>3541</t><v id="G">62</v></cc>
+			<cc><t>3545</t><v id="G">61</v></cc>
+			<cc><t>3551</t><v id="G">60</v></cc>
+			<cc><t>3555</t><v id="G">59</v></cc>
+			<cc><t>3565</t><v id="G">58</v></cc>
+			<cc><t>3571</t><v id="G">57</v></cc>
+			<cc><t>3575</t><v id="G">56</v></cc>
+			<cc><t>3581</t><v id="G">55</v></cc>
+			<cc><t>3591</t><v id="G">54</v></cc>
+			<cc><t>3595</t><v id="G">53</v></cc>
+			<cc><t>3601</t><v id="G">52</v></cc>
+			<cc><t>3605</t><v id="G">51</v></cc>
+			<cc><t>3615</t><v id="G">50</v></cc>
+			<cc><t>3621</t><v id="G">49</v></cc>
+			<cc><t>3625</t><v id="G">48</v></cc>
+			<cc><t>3635</t><v id="G">46</v></cc>
+			<cc><t>3645</t><v id="G">44</v></cc>
+			<cc><t>3655</t><v id="G">42</v></cc>
+			<cc><t>3661</t><v id="G">41</v></cc>
+			<cc><t>3665</t><v id="G">40</v></cc>
+			<cc><t>3671</t><v id="G">39</v></cc>
+			<cc><t>3675</t><v id="G">38</v></cc>
+			<cc><t>3681</t><v id="G">36</v></cc>
+			<cc><t>3685</t><v id="G">35</v></cc>
+			<cc><t>3691</t><v id="G">34</v></cc>
+			<cc><t>3695</t><v id="G">32</v></cc>
+			<cc><t>3701</t><v id="G">30</v></cc>
+			<cc><t>3705</t><v id="G">29</v></cc>
+			<cc><t>3711</t><v id="G">28</v></cc>
+			<cc><t>3715</t><v id="G">26</v></cc>
+			<cc><t>3721</t><v id="G">25</v></cc>
+			<cc><t>3725</t><v id="G">24</v></cc>
+			<cc><t>3731</t><v id="G">23</v></cc>
+			<cc><t>3735</t><v id="G">21</v></cc>
+			<cc><t>3741</t><v id="G">20</v></cc>
+			<cc><t>3745</t><v id="G">19</v></cc>
+			<cc><t>3751</t><v id="G">18</v></cc>
+			<cc><t>3755</t><v id="G">17</v></cc>
+			<cc><t>3761</t><v id="G">15</v></cc>
+			<cc><t>3765</t><v id="G">13</v></cc>
+			<cc><t>3771</t><v id="G">11</v></cc>
+			<cc><t>3775</t><v id="G">9</v></cc>
+			<cc><t>3785</t><v id="G">7</v></cc>
+			<cc><t>3791</t><v id="G">6</v></cc>
+			<cc><t>3795</t><v id="G">5</v></cc>
+			<cc><t>3801</t><v id="G">3</v></cc>
+			<cc><t>3811</t><v id="G">1</v></cc>
+			<cc><t>3821</t><v id="G">0</v></cc>
+			<note>
+				<t>480</t>
+				<dur>480</dur>
+				<n>72</n>
+				<v>64</v>
+				<y><![CDATA[a]]></y>
+				<p><![CDATA[a]]></p>
+				<nStyle>
+					<v id="accent">50</v>
+					<v id="bendDep">0</v>
+					<v id="bendLen">0</v>
+					<v id="decay">50</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">66</v>
+					<v id="vibType">1</v>
+					<seq id="vibDep">
+						<cc><p>22391</p><v>64</v></cc>
+					</seq>
+					<seq id="vibRate">
+						<cc><p>22391</p><v>50</v></cc>
+					</seq>
+				</nStyle>
+			</note>
+			<plane>0</plane>
+		</vsPart>
+		<vsPart>
+			<t>35520</t>
+			<playTime>4800</playTime>
+			<name><![CDATA[DYN]]></name>
+			<comment><![CDATA[New Musical Part]]></comment>
+			<sPlug>
+				<id><![CDATA[ACA9C502-A04B-42b5-B2EB-5CEA36D16FCE]]></id>
+				<name><![CDATA[VOCALOID2 Compatible Style]]></name>
+				<version><![CDATA[3.0.0.1]]></version>
+			</sPlug>
+			<pStyle>
+				<v id="accent">50</v>
+				<v id="bendDep">8</v>
+				<v id="bendLen">0</v>
+				<v id="decay">50</v>
+				<v id="fallPort">0</v>
+				<v id="opening">127</v>
+				<v id="risePort">0</v>
+			</pStyle>
+			<singer>
+				<t>0</t>
+				<bs>0</bs>
+				<pc>0</pc>
+			</singer>
+			<cc><t>75</t><v id="D">26</v></cc>
+			<cc><t>81</t><v id="D">29</v></cc>
+			<cc><t>85</t><v id="D">31</v></cc>
+			<cc><t>91</t><v id="D">33</v></cc>
+			<cc><t>95</t><v id="D">35</v></cc>
+			<cc><t>100</t><v id="R">25</v></cc>
+			<cc><t>101</t><v id="D">36</v></cc>
+			<cc><t>105</t><v id="D">38</v></cc>
+			<cc><t>106</t><v id="R">28</v></cc>
+			<cc><t>110</t><v id="R">32</v></cc>
+			<cc><t>111</t><v id="D">40</v></cc>
+			<cc><t>115</t><v id="D">42</v></cc>
+			<cc><t>116</t><v id="R">40</v></cc>
+			<cc><t>120</t><v id="R">46</v></cc>
+			<cc><t>121</t><v id="D">43</v></cc>
+			<cc><t>125</t><v id="D">44</v></cc>
+			<cc><t>126</t><v id="R">48</v></cc>
+			<cc><t>130</t><v id="R">50</v></cc>
+			<cc><t>131</t><v id="D">46</v></cc>
+			<cc><t>135</t><v id="D">47</v></cc>
+			<cc><t>136</t><v id="R">52</v></cc>
+			<cc><t>140</t><v id="R">54</v></cc>
+			<cc><t>141</t><v id="D">48</v></cc>
+			<cc><t>145</t><v id="D">49</v></cc>
+			<cc><t>146</t><v id="R">56</v></cc>
+			<cc><t>150</t><v id="R">58</v></cc>
+			<cc><t>151</t><v id="D">50</v></cc>
+			<cc><t>155</t><v id="D">51</v></cc>
+			<cc><t>156</t><v id="R">60</v></cc>
+			<cc><t>160</t><v id="R">61</v></cc>
+			<cc><t>161</t><v id="D">53</v></cc>
+			<cc><t>166</t><v id="R">62</v></cc>
+			<cc><t>170</t><v id="R">63</v></cc>
+			<cc><t>171</t><v id="D">55</v></cc>
+			<cc><t>176</t><v id="R">65</v></cc>
+			<cc><t>180</t><v id="R">66</v></cc>
+			<cc><t>181</t><v id="D">57</v></cc>
+			<cc><t>186</t><v id="R">67</v></cc>
+			<cc><t>190</t><v id="R">69</v></cc>
+			<cc><t>191</t><v id="D">59</v></cc>
+			<cc><t>196</t><v id="R">71</v></cc>
+			<cc><t>200</t><v id="R">73</v></cc>
+			<cc><t>201</t><v id="D">61</v></cc>
+			<cc><t>206</t><v id="R">75</v></cc>
+			<cc><t>210</t><v id="R">77</v></cc>
+			<cc><t>211</t><v id="D">64</v></cc>
+			<cc><t>215</t><v id="D">63</v></cc>
+			<cc><t>216</t><v id="R">80</v></cc>
+			<cc><t>221</t><v id="D">65</v></cc>
+			<cc><t>225</t><v id="D">66</v></cc>
+			<cc><t>226</t><v id="R">81</v></cc>
+			<cc><t>230</t><v id="R">82</v></cc>
+			<cc><t>231</t><v id="D">67</v></cc>
+			<cc><t>235</t><v id="D">68</v></cc>
+			<cc><t>236</t><v id="R">83</v></cc>
+			<cc><t>240</t><v id="R">84</v></cc>
+			<cc><t>241</t><v id="D">69</v></cc>
+			<cc><t>245</t><v id="D">71</v></cc>
+			<cc><t>246</t><v id="R">85</v></cc>
+			<cc><t>250</t><v id="R">86</v></cc>
+			<cc><t>255</t><v id="D">72</v></cc>
+			<cc><t>256</t><v id="R">88</v></cc>
+			<cc><t>260</t><v id="R">89</v></cc>
+			<cc><t>261</t><v id="D">73</v></cc>
+			<cc><t>266</t><v id="R">91</v></cc>
+			<cc><t>270</t><v id="R">94</v></cc>
+			<cc><t>271</t><v id="D">74</v></cc>
+			<cc><t>275</t><v id="D">75</v></cc>
+			<cc><t>276</t><v id="R">95</v></cc>
+			<cc><t>280</t><v id="R">96</v></cc>
+			<cc><t>285</t><v id="D">76</v></cc>
+			<cc><t>286</t><v id="R">98</v></cc>
+			<cc><t>290</t><v id="R">99</v></cc>
+			<cc><t>295</t><v id="D">77</v></cc>
+			<cc><t>296</t><v id="R">100</v></cc>
+			<cc><t>301</t><v id="D">78</v></cc>
+			<cc><t>306</t><v id="R">101</v></cc>
+			<cc><t>311</t><v id="D">79</v></cc>
+			<cc><t>315</t><v id="D">80</v></cc>
+			<cc><t>316</t><v id="R">102</v></cc>
+			<cc><t>320</t><v id="R">103</v></cc>
+			<cc><t>321</t><v id="D">81</v></cc>
+			<cc><t>330</t><v id="R">104</v></cc>
+			<cc><t>331</t><v id="D">82</v></cc>
+			<cc><t>336</t><v id="R">105</v></cc>
+			<cc><t>345</t><v id="D">83</v></cc>
+			<cc><t>350</t><v id="R">106</v></cc>
+			<cc><t>351</t><v id="D">84</v></cc>
+			<cc><t>356</t><v id="R">107</v></cc>
+			<cc><t>365</t><v id="D">85</v></cc>
+			<cc><t>366</t><v id="R">108</v></cc>
+			<cc><t>370</t><v id="R">109</v></cc>
+			<cc><t>371</t><v id="D">86</v></cc>
+			<cc><t>380</t><v id="R">110</v></cc>
+			<cc><t>391</t><v id="D">87</v></cc>
+			<cc><t>400</t><v id="R">111</v></cc>
+			<cc><t>401</t><v id="D">88</v></cc>
+			<cc><t>415</t><v id="D">89</v></cc>
+			<cc><t>421</t><v id="D">90</v></cc>
+			<cc><t>430</t><v id="R">112</v></cc>
+			<cc><t>435</t><v id="D">91</v></cc>
+			<cc><t>445</t><v id="D">92</v></cc>
+			<cc><t>446</t><v id="R">113</v></cc>
+			<cc><t>470</t><v id="R">114</v></cc>
+			<cc><t>471</t><v id="D">93</v></cc>
+			<cc><t>476</t><v id="R">115</v></cc>
+			<cc><t>485</t><v id="D">94</v></cc>
+			<cc><t>510</t><v id="R">116</v></cc>
+			<cc><t>520</t><v id="R">117</v></cc>
+			<cc><t>530</t><v id="R">118</v></cc>
+			<cc><t>535</t><v id="D">95</v></cc>
+			<cc><t>536</t><v id="R">119</v></cc>
+			<cc><t>555</t><v id="D">96</v></cc>
+			<cc><t>560</t><v id="R">120</v></cc>
+			<cc><t>570</t><v id="R">121</v></cc>
+			<cc><t>590</t><v id="R">122</v></cc>
+			<cc><t>616</t><v id="R">123</v></cc>
+			<cc><t>640</t><v id="R">124</v></cc>
+			<cc><t>650</t><v id="R">125</v></cc>
+			<cc><t>680</t><v id="R">126</v></cc>
+			<cc><t>695</t><v id="D">95</v></cc>
+			<cc><t>706</t><v id="R">127</v></cc>
+			<cc><t>711</t><v id="D">94</v></cc>
+			<cc><t>745</t><v id="D">93</v></cc>
+			<cc><t>771</t><v id="D">92</v></cc>
+			<cc><t>791</t><v id="D">91</v></cc>
+			<cc><t>801</t><v id="D">90</v></cc>
+			<cc><t>841</t><v id="D">89</v></cc>
+			<cc><t>855</t><v id="D">88</v></cc>
+			<cc><t>891</t><v id="D">87</v></cc>
+			<cc><t>911</t><v id="D">86</v></cc>
+			<cc><t>931</t><v id="D">85</v></cc>
+			<cc><t>941</t><v id="D">84</v></cc>
+			<cc><t>971</t><v id="D">83</v></cc>
+			<cc><t>981</t><v id="D">82</v></cc>
+			<cc><t>995</t><v id="D">81</v></cc>
+			<cc><t>1001</t><v id="D">80</v></cc>
+			<cc><t>1005</t><v id="D">78</v></cc>
+			<cc><t>1021</t><v id="D">77</v></cc>
+			<cc><t>1025</t><v id="D">76</v></cc>
+			<cc><t>1035</t><v id="D">75</v></cc>
+			<cc><t>1045</t><v id="D">74</v></cc>
+			<cc><t>1051</t><v id="D">73</v></cc>
+			<cc><t>1061</t><v id="D">72</v></cc>
+			<cc><t>1065</t><v id="D">71</v></cc>
+			<cc><t>1071</t><v id="D">70</v></cc>
+			<cc><t>1075</t><v id="D">69</v></cc>
+			<cc><t>1085</t><v id="D">68</v></cc>
+			<cc><t>1091</t><v id="D">67</v></cc>
+			<cc><t>1101</t><v id="D">66</v></cc>
+			<cc><t>1105</t><v id="D">65</v></cc>
+			<cc><t>1115</t><v id="D">64</v></cc>
+			<cc><t>1125</t><v id="D">63</v></cc>
+			<cc><t>1131</t><v id="D">64</v></cc>
+			<cc><t>1135</t><v id="D">62</v></cc>
+			<cc><t>1141</t><v id="D">61</v></cc>
+			<cc><t>1145</t><v id="D">59</v></cc>
+			<cc><t>1151</t><v id="D">57</v></cc>
+			<cc><t>1155</t><v id="D">55</v></cc>
+			<cc><t>1161</t><v id="D">54</v></cc>
+			<cc><t>1165</t><v id="D">53</v></cc>
+			<cc><t>1175</t><v id="D">52</v></cc>
+			<cc><t>1181</t><v id="D">51</v></cc>
+			<cc><t>1191</t><v id="D">50</v></cc>
+			<cc><t>1201</t><v id="D">49</v></cc>
+			<cc><t>1205</t><v id="D">48</v></cc>
+			<cc><t>1211</t><v id="D">46</v></cc>
+			<cc><t>1215</t><v id="D">44</v></cc>
+			<cc><t>1225</t><v id="D">42</v></cc>
+			<cc><t>1231</t><v id="D">41</v></cc>
+			<cc><t>1235</t><v id="D">40</v></cc>
+			<cc><t>1241</t><v id="D">38</v></cc>
+			<cc><t>1245</t><v id="D">37</v></cc>
+			<cc><t>1251</t><v id="D">36</v></cc>
+			<cc><t>1255</t><v id="D">34</v></cc>
+			<cc><t>1261</t><v id="D">32</v></cc>
+			<cc><t>1265</t><v id="D">31</v></cc>
+			<cc><t>1271</t><v id="D">29</v></cc>
+			<cc><t>1275</t><v id="D">28</v></cc>
+			<cc><t>1276</t><v id="R">125</v></cc>
+			<cc><t>1280</t><v id="R">124</v></cc>
+			<cc><t>1281</t><v id="D">27</v></cc>
+			<cc><t>1285</t><v id="D">26</v></cc>
+			<cc><t>1286</t><v id="R">122</v></cc>
+			<cc><t>1290</t><v id="R">121</v></cc>
+			<cc><t>1291</t><v id="D">25</v></cc>
+			<cc><t>1296</t><v id="R">119</v></cc>
+			<cc><t>1300</t><v id="R">113</v></cc>
+			<cc><t>1301</t><v id="D">23</v></cc>
+			<cc><t>1306</t><v id="R">111</v></cc>
+			<cc><t>1310</t><v id="R">109</v></cc>
+			<cc><t>1311</t><v id="D">21</v></cc>
+			<cc><t>1316</t><v id="R">107</v></cc>
+			<cc><t>1320</t><v id="R">105</v></cc>
+			<cc><t>1321</t><v id="D">19</v></cc>
+			<cc><t>1326</t><v id="R">103</v></cc>
+			<cc><t>1330</t><v id="R">101</v></cc>
+			<cc><t>1335</t><v id="D">18</v></cc>
+			<cc><t>1336</t><v id="R">100</v></cc>
+			<cc><t>1340</t><v id="R">98</v></cc>
+			<cc><t>1341</t><v id="D">17</v></cc>
+			<cc><t>1346</t><v id="R">96</v></cc>
+			<cc><t>1350</t><v id="R">94</v></cc>
+			<cc><t>1351</t><v id="D">16</v></cc>
+			<cc><t>1355</t><v id="D">15</v></cc>
+			<cc><t>1356</t><v id="R">91</v></cc>
+			<cc><t>1360</t><v id="R">88</v></cc>
+			<cc><t>1361</t><v id="D">14</v></cc>
+			<cc><t>1365</t><v id="D">13</v></cc>
+			<cc><t>1366</t><v id="R">85</v></cc>
+			<cc><t>1370</t><v id="R">82</v></cc>
+			<cc><t>1371</t><v id="D">12</v></cc>
+			<cc><t>1375</t><v id="D">11</v></cc>
+			<cc><t>1376</t><v id="R">78</v></cc>
+			<cc><t>1380</t><v id="R">75</v></cc>
+			<cc><t>1381</t><v id="D">10</v></cc>
+			<cc><t>1385</t><v id="D">9</v></cc>
+			<cc><t>1386</t><v id="R">71</v></cc>
+			<cc><t>1390</t><v id="R">68</v></cc>
+			<cc><t>1391</t><v id="D">8</v></cc>
+			<cc><t>1395</t><v id="D">7</v></cc>
+			<cc><t>1396</t><v id="R">65</v></cc>
+			<cc><t>1400</t><v id="R">61</v></cc>
+			<cc><t>1401</t><v id="D">6</v></cc>
+			<cc><t>1405</t><v id="D">5</v></cc>
+			<cc><t>1406</t><v id="R">59</v></cc>
+			<cc><t>1410</t><v id="R">57</v></cc>
+			<cc><t>1411</t><v id="D">3</v></cc>
+			<cc><t>1415</t><v id="D">2</v></cc>
+			<cc><t>1416</t><v id="R">54</v></cc>
+			<cc><t>1420</t><v id="R">52</v></cc>
+			<cc><t>1421</t><v id="D">1</v></cc>
+			<cc><t>1425</t><v id="D">0</v></cc>
+			<cc><t>1426</t><v id="R">50</v></cc>
+			<cc><t>1430</t><v id="R">46</v></cc>
+			<cc><t>1436</t><v id="R">42</v></cc>
+			<cc><t>1440</t><v id="R">38</v></cc>
+			<cc><t>1446</t><v id="R">33</v></cc>
+			<cc><t>1450</t><v id="R">28</v></cc>
+			<cc><t>1456</t><v id="R">24</v></cc>
+			<cc><t>1460</t><v id="R">17</v></cc>
+			<cc><t>1466</t><v id="R">14</v></cc>
+			<cc><t>1470</t><v id="R">11</v></cc>
+			<cc><t>1476</t><v id="R">9</v></cc>
+			<cc><t>1480</t><v id="R">6</v></cc>
+			<cc><t>1486</t><v id="R">3</v></cc>
+			<cc><t>1490</t><v id="R">2</v></cc>
+			<cc><t>1496</t><v id="R">1</v></cc>
+			<cc><t>1500</t><v id="R">0</v></cc>
+			<cc><t>1875</t><v id="D">1</v></cc>
+			<cc><t>1935</t><v id="D">2</v></cc>
+			<cc><t>1945</t><v id="D">3</v></cc>
+			<cc><t>1965</t><v id="D">4</v></cc>
+			<cc><t>1971</t><v id="D">5</v></cc>
+			<cc><t>1985</t><v id="D">6</v></cc>
+			<cc><t>1991</t><v id="D">7</v></cc>
+			<cc><t>2001</t><v id="D">8</v></cc>
+			<cc><t>2005</t><v id="D">9</v></cc>
+			<cc><t>2015</t><v id="D">10</v></cc>
+			<cc><t>2021</t><v id="D">11</v></cc>
+			<cc><t>2031</t><v id="D">12</v></cc>
+			<cc><t>2041</t><v id="D">13</v></cc>
+			<cc><t>2051</t><v id="D">14</v></cc>
+			<cc><t>2055</t><v id="D">15</v></cc>
+			<cc><t>2065</t><v id="D">16</v></cc>
+			<cc><t>2071</t><v id="D">17</v></cc>
+			<cc><t>2081</t><v id="D">18</v></cc>
+			<cc><t>2085</t><v id="D">19</v></cc>
+			<cc><t>2095</t><v id="D">20</v></cc>
+			<cc><t>2101</t><v id="D">21</v></cc>
+			<cc><t>2105</t><v id="D">23</v></cc>
+			<cc><t>2115</t><v id="D">25</v></cc>
+			<cc><t>2125</t><v id="D">26</v></cc>
+			<cc><t>2131</t><v id="D">27</v></cc>
+			<cc><t>2135</t><v id="D">28</v></cc>
+			<cc><t>2141</t><v id="D">30</v></cc>
+			<cc><t>2151</t><v id="D">32</v></cc>
+			<cc><t>2155</t><v id="D">33</v></cc>
+			<cc><t>2161</t><v id="D">34</v></cc>
+			<cc><t>2165</t><v id="D">36</v></cc>
+			<cc><t>2171</t><v id="D">37</v></cc>
+			<cc><t>2175</t><v id="D">38</v></cc>
+			<cc><t>2181</t><v id="D">40</v></cc>
+			<cc><t>2185</t><v id="D">41</v></cc>
+			<cc><t>2191</t><v id="D">42</v></cc>
+			<cc><t>2195</t><v id="D">47</v></cc>
+			<cc><t>2201</t><v id="D">48</v></cc>
+			<cc><t>2205</t><v id="D">50</v></cc>
+			<cc><t>2211</t><v id="D">52</v></cc>
+			<cc><t>2215</t><v id="D">54</v></cc>
+			<cc><t>2221</t><v id="D">56</v></cc>
+			<cc><t>2225</t><v id="D">57</v></cc>
+			<cc><t>2231</t><v id="D">59</v></cc>
+			<cc><t>2235</t><v id="D">61</v></cc>
+			<cc><t>2241</t><v id="D">62</v></cc>
+			<cc><t>2245</t><v id="D">63</v></cc>
+			<cc><t>2251</t><v id="D">65</v></cc>
+			<cc><t>2255</t><v id="D">67</v></cc>
+			<cc><t>2261</t><v id="D">68</v></cc>
+			<cc><t>2265</t><v id="D">70</v></cc>
+			<cc><t>2271</t><v id="D">71</v></cc>
+			<cc><t>2275</t><v id="D">73</v></cc>
+			<cc><t>2281</t><v id="D">75</v></cc>
+			<cc><t>2285</t><v id="D">76</v></cc>
+			<cc><t>2291</t><v id="D">78</v></cc>
+			<cc><t>2295</t><v id="D">80</v></cc>
+			<cc><t>2301</t><v id="D">81</v></cc>
+			<cc><t>2305</t><v id="D">83</v></cc>
+			<cc><t>2311</t><v id="D">84</v></cc>
+			<cc><t>2315</t><v id="D">85</v></cc>
+			<cc><t>2321</t><v id="D">86</v></cc>
+			<cc><t>2325</t><v id="D">87</v></cc>
+			<cc><t>2331</t><v id="D">88</v></cc>
+			<cc><t>2335</t><v id="D">90</v></cc>
+			<cc><t>2345</t><v id="D">92</v></cc>
+			<cc><t>2351</t><v id="D">93</v></cc>
+			<cc><t>2355</t><v id="D">94</v></cc>
+			<cc><t>2361</t><v id="D">95</v></cc>
+			<cc><t>2365</t><v id="D">96</v></cc>
+			<cc><t>2371</t><v id="D">98</v></cc>
+			<cc><t>2375</t><v id="D">99</v></cc>
+			<cc><t>2381</t><v id="D">100</v></cc>
+			<cc><t>2385</t><v id="D">101</v></cc>
+			<cc><t>2391</t><v id="D">102</v></cc>
+			<cc><t>2395</t><v id="D">103</v></cc>
+			<cc><t>2401</t><v id="D">105</v></cc>
+			<cc><t>2405</t><v id="D">106</v></cc>
+			<cc><t>2411</t><v id="D">107</v></cc>
+			<cc><t>2415</t><v id="D">109</v></cc>
+			<cc><t>2431</t><v id="D">110</v></cc>
+			<cc><t>2435</t><v id="D">111</v></cc>
+			<cc><t>2445</t><v id="D">112</v></cc>
+			<cc><t>2451</t><v id="D">113</v></cc>
+			<cc><t>2461</t><v id="D">115</v></cc>
+			<cc><t>2471</t><v id="D">117</v></cc>
+			<cc><t>2481</t><v id="D">118</v></cc>
+			<cc><t>2485</t><v id="D">119</v></cc>
+			<cc><t>2486</t><v id="R">1</v></cc>
+			<cc><t>2496</t><v id="R">2</v></cc>
+			<cc><t>2500</t><v id="R">3</v></cc>
+			<cc><t>2501</t><v id="D">120</v></cc>
+			<cc><t>2505</t><v id="D">121</v></cc>
+			<cc><t>2510</t><v id="R">4</v></cc>
+			<cc><t>2516</t><v id="R">6</v></cc>
+			<cc><t>2520</t><v id="R">8</v></cc>
+			<cc><t>2525</t><v id="D">122</v></cc>
+			<cc><t>2526</t><v id="R">10</v></cc>
+			<cc><t>2530</t><v id="R">15</v></cc>
+			<cc><t>2535</t><v id="D">123</v></cc>
+			<cc><t>2536</t><v id="R">19</v></cc>
+			<cc><t>2540</t><v id="R">24</v></cc>
+			<cc><t>2546</t><v id="R">63</v></cc>
+			<cc><t>2550</t><v id="R">80</v></cc>
+			<cc><t>2555</t><v id="D">124</v></cc>
+			<cc><t>2556</t><v id="R">84</v></cc>
+			<cc><t>2560</t><v id="R">89</v></cc>
+			<cc><t>2566</t><v id="R">91</v></cc>
+			<cc><t>2570</t><v id="R">93</v></cc>
+			<cc><t>2576</t><v id="R">95</v></cc>
+			<cc><t>2580</t><v id="R">97</v></cc>
+			<cc><t>2586</t><v id="R">100</v></cc>
+			<cc><t>2590</t><v id="R">101</v></cc>
+			<cc><t>2596</t><v id="R">103</v></cc>
+			<cc><t>2600</t><v id="R">105</v></cc>
+			<cc><t>2606</t><v id="R">107</v></cc>
+			<cc><t>2610</t><v id="R">110</v></cc>
+			<cc><t>2616</t><v id="R">113</v></cc>
+			<cc><t>2620</t><v id="R">117</v></cc>
+			<cc><t>2625</t><v id="D">125</v></cc>
+			<cc><t>2626</t><v id="R">120</v></cc>
+			<cc><t>2630</t><v id="R">123</v></cc>
+			<cc><t>2636</t><v id="R">125</v></cc>
+			<cc><t>2660</t><v id="R">126</v></cc>
+			<cc><t>2680</t><v id="R">127</v></cc>
+			<cc><t>2855</t><v id="D">124</v></cc>
+			<cc><t>2865</t><v id="D">123</v></cc>
+			<cc><t>2885</t><v id="D">122</v></cc>
+			<cc><t>2895</t><v id="D">121</v></cc>
+			<cc><t>2921</t><v id="D">120</v></cc>
+			<cc><t>2931</t><v id="D">119</v></cc>
+			<cc><t>2951</t><v id="D">118</v></cc>
+			<cc><t>2961</t><v id="D">117</v></cc>
+			<cc><t>2981</t><v id="D">116</v></cc>
+			<cc><t>2986</t><v id="R">126</v></cc>
+			<cc><t>2990</t><v id="R">125</v></cc>
+			<cc><t>3000</t><v id="R">124</v></cc>
+			<cc><t>3005</t><v id="D">115</v></cc>
+			<cc><t>3006</t><v id="R">123</v></cc>
+			<cc><t>3020</t><v id="R">122</v></cc>
+			<cc><t>3025</t><v id="D">114</v></cc>
+			<cc><t>3026</t><v id="R">121</v></cc>
+			<cc><t>3035</t><v id="D">113</v></cc>
+			<cc><t>3036</t><v id="R">120</v></cc>
+			<cc><t>3040</t><v id="R">119</v></cc>
+			<cc><t>3045</t><v id="D">112</v></cc>
+			<cc><t>3051</t><v id="D">111</v></cc>
+			<cc><t>3055</t><v id="D">110</v></cc>
+			<cc><t>3056</t><v id="R">118</v></cc>
+			<cc><t>3060</t><v id="R">117</v></cc>
+			<cc><t>3065</t><v id="D">109</v></cc>
+			<cc><t>3070</t><v id="R">116</v></cc>
+			<cc><t>3075</t><v id="D">108</v></cc>
+			<cc><t>3076</t><v id="R">115</v></cc>
+			<cc><t>3081</t><v id="D">107</v></cc>
+			<cc><t>3086</t><v id="R">114</v></cc>
+			<cc><t>3090</t><v id="R">113</v></cc>
+			<cc><t>3091</t><v id="D">106</v></cc>
+			<cc><t>3095</t><v id="D">105</v></cc>
+			<cc><t>3100</t><v id="R">111</v></cc>
+			<cc><t>3110</t><v id="R">110</v></cc>
+			<cc><t>3111</t><v id="D">104</v></cc>
+			<cc><t>3115</t><v id="D">103</v></cc>
+			<cc><t>3116</t><v id="R">109</v></cc>
+			<cc><t>3120</t><v id="R">108</v></cc>
+			<cc><t>3125</t><v id="D">102</v></cc>
+			<cc><t>3126</t><v id="R">107</v></cc>
+			<cc><t>3131</t><v id="D">101</v></cc>
+			<cc><t>3136</t><v id="R">106</v></cc>
+			<cc><t>3140</t><v id="R">105</v></cc>
+			<cc><t>3141</t><v id="D">100</v></cc>
+			<cc><t>3146</t><v id="R">104</v></cc>
+			<cc><t>3150</t><v id="R">103</v></cc>
+			<cc><t>3151</t><v id="D">99</v></cc>
+			<cc><t>3155</t><v id="D">98</v></cc>
+			<cc><t>3156</t><v id="R">102</v></cc>
+			<cc><t>3160</t><v id="R">101</v></cc>
+			<cc><t>3165</t><v id="D">97</v></cc>
+			<cc><t>3166</t><v id="R">100</v></cc>
+			<cc><t>3170</t><v id="R">99</v></cc>
+			<cc><t>3171</t><v id="D">96</v></cc>
+			<cc><t>3175</t><v id="D">95</v></cc>
+			<cc><t>3176</t><v id="R">98</v></cc>
+			<cc><t>3180</t><v id="R">96</v></cc>
+			<cc><t>3181</t><v id="D">94</v></cc>
+			<cc><t>3190</t><v id="R">94</v></cc>
+			<cc><t>3191</t><v id="D">93</v></cc>
+			<cc><t>3195</t><v id="D">92</v></cc>
+			<cc><t>3200</t><v id="R">92</v></cc>
+			<cc><t>3201</t><v id="D">91</v></cc>
+			<cc><t>3205</t><v id="D">90</v></cc>
+			<cc><t>3210</t><v id="R">90</v></cc>
+			<cc><t>3211</t><v id="D">89</v></cc>
+			<cc><t>3215</t><v id="D">88</v></cc>
+			<cc><t>3220</t><v id="R">88</v></cc>
+			<cc><t>3221</t><v id="D">87</v></cc>
+			<cc><t>3230</t><v id="R">86</v></cc>
+			<cc><t>3240</t><v id="R">84</v></cc>
+			<cc><t>3241</t><v id="D">86</v></cc>
+			<cc><t>3246</t><v id="R">83</v></cc>
+			<cc><t>3250</t><v id="R">82</v></cc>
+			<cc><t>3251</t><v id="D">85</v></cc>
+			<cc><t>3255</t><v id="D">84</v></cc>
+			<cc><t>3256</t><v id="R">81</v></cc>
+			<cc><t>3260</t><v id="R">80</v></cc>
+			<cc><t>3265</t><v id="D">82</v></cc>
+			<cc><t>3266</t><v id="R">79</v></cc>
+			<cc><t>3270</t><v id="R">78</v></cc>
+			<cc><t>3271</t><v id="D">81</v></cc>
+			<cc><t>3275</t><v id="D">78</v></cc>
+			<cc><t>3276</t><v id="R">77</v></cc>
+			<cc><t>3280</t><v id="R">76</v></cc>
+			<cc><t>3285</t><v id="D">76</v></cc>
+			<cc><t>3286</t><v id="R">75</v></cc>
+			<cc><t>3295</t><v id="D">75</v></cc>
+			<cc><t>3296</t><v id="R">73</v></cc>
+			<cc><t>3300</t><v id="R">72</v></cc>
+			<cc><t>3301</t><v id="D">74</v></cc>
+			<cc><t>3305</t><v id="D">73</v></cc>
+			<cc><t>3306</t><v id="R">71</v></cc>
+			<cc><t>3310</t><v id="R">70</v></cc>
+			<cc><t>3315</t><v id="D">72</v></cc>
+			<cc><t>3316</t><v id="R">69</v></cc>
+			<cc><t>3320</t><v id="R">68</v></cc>
+			<cc><t>3321</t><v id="D">71</v></cc>
+			<cc><t>3325</t><v id="D">69</v></cc>
+			<cc><t>3326</t><v id="R">67</v></cc>
+			<cc><t>3330</t><v id="R">65</v></cc>
+			<cc><t>3331</t><v id="D">68</v></cc>
+			<cc><t>3335</t><v id="D">67</v></cc>
+			<cc><t>3340</t><v id="R">63</v></cc>
+			<cc><t>3341</t><v id="D">65</v></cc>
+			<cc><t>3345</t><v id="D">64</v></cc>
+			<cc><t>3346</t><v id="R">62</v></cc>
+			<cc><t>3350</t><v id="R">61</v></cc>
+			<cc><t>3355</t><v id="D">61</v></cc>
+			<cc><t>3356</t><v id="R">60</v></cc>
+			<cc><t>3360</t><v id="R">59</v></cc>
+			<cc><t>3361</t><v id="D">60</v></cc>
+			<cc><t>3365</t><v id="D">59</v></cc>
+			<cc><t>3366</t><v id="R">58</v></cc>
+			<cc><t>3370</t><v id="R">57</v></cc>
+			<cc><t>3371</t><v id="D">57</v></cc>
+			<cc><t>3376</t><v id="R">56</v></cc>
+			<cc><t>3380</t><v id="R">55</v></cc>
+			<cc><t>3381</t><v id="D">56</v></cc>
+			<cc><t>3385</t><v id="D">127</v></cc>
+			<cc><t>3386</t><v id="R">54</v></cc>
+			<cc><t>3390</t><v id="R">53</v></cc>
+			<cc><t>3396</t><v id="R">52</v></cc>
+			<cc><t>3400</t><v id="R">51</v></cc>
+			<cc><t>3406</t><v id="R">50</v></cc>
+			<cc><t>3416</t><v id="R">48</v></cc>
+			<cc><t>3426</t><v id="R">46</v></cc>
+			<cc><t>3436</t><v id="R">44</v></cc>
+			<cc><t>3446</t><v id="R">42</v></cc>
+			<cc><t>3450</t><v id="R">41</v></cc>
+			<cc><t>3456</t><v id="R">40</v></cc>
+			<cc><t>3466</t><v id="R">38</v></cc>
+			<cc><t>3476</t><v id="R">37</v></cc>
+			<cc><t>3480</t><v id="R">36</v></cc>
+			<cc><t>3486</t><v id="R">35</v></cc>
+			<cc><t>3490</t><v id="R">34</v></cc>
+			<cc><t>3496</t><v id="R">32</v></cc>
+			<cc><t>3500</t><v id="R">29</v></cc>
+			<cc><t>3506</t><v id="R">28</v></cc>
+			<cc><t>3510</t><v id="R">27</v></cc>
+			<cc><t>3516</t><v id="R">26</v></cc>
+			<cc><t>3520</t><v id="R">25</v></cc>
+			<cc><t>3526</t><v id="R">24</v></cc>
+			<cc><t>3530</t><v id="R">23</v></cc>
+			<cc><t>3536</t><v id="R">22</v></cc>
+			<cc><t>3540</t><v id="R">21</v></cc>
+			<cc><t>3546</t><v id="R">20</v></cc>
+			<cc><t>3550</t><v id="R">19</v></cc>
+			<cc><t>3556</t><v id="R">17</v></cc>
+			<cc><t>3560</t><v id="R">16</v></cc>
+			<cc><t>3566</t><v id="R">14</v></cc>
+			<cc><t>3570</t><v id="R">13</v></cc>
+			<cc><t>3580</t><v id="R">11</v></cc>
+			<cc><t>3590</t><v id="R">10</v></cc>
+			<cc><t>3596</t><v id="R">9</v></cc>
+			<cc><t>3600</t><v id="R">8</v></cc>
+			<cc><t>3606</t><v id="R">7</v></cc>
+			<cc><t>3610</t><v id="R">5</v></cc>
+			<cc><t>3616</t><v id="R">4</v></cc>
+			<cc><t>3620</t><v id="R">2</v></cc>
+			<cc><t>3626</t><v id="R">0</v></cc>
+			<cc><t>3991</t><v id="D">109</v></cc>
+			<cc><t>3995</t><v id="D">64</v></cc>
+			<cc><t>4001</t><v id="D">55</v></cc>
+			<cc><t>4005</t><v id="D">36</v></cc>
+			<cc><t>4011</t><v id="D">28</v></cc>
+			<cc><t>4015</t><v id="D">11</v></cc>
+			<cc><t>4021</t><v id="D">0</v></cc>
+			<note>
+				<t>2160</t>
+				<dur>720</dur>
+				<n>73</n>
+				<v>64</v>
+				<y><![CDATA[a]]></y>
+				<p><![CDATA[a]]></p>
+				<nStyle>
+					<v id="accent">50</v>
+					<v id="bendDep">0</v>
+					<v id="bendLen">0</v>
+					<v id="decay">50</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">66</v>
+					<v id="vibType">1</v>
+					<seq id="vibDep">
+						<cc><p>22300</p><v>64</v></cc>
+					</seq>
+					<seq id="vibRate">
+						<cc><p>22300</p><v>50</v></cc>
+					</seq>
+				</nStyle>
+			</note>
+			<plane>0</plane>
+		</vsPart>
+		<vsPart>
+			<t>42240</t>
+			<playTime>4320</playTime>
+			<name><![CDATA[BRE]]></name>
+			<comment><![CDATA[New Musical Part]]></comment>
+			<sPlug>
+				<id><![CDATA[ACA9C502-A04B-42b5-B2EB-5CEA36D16FCE]]></id>
+				<name><![CDATA[VOCALOID2 Compatible Style]]></name>
+				<version><![CDATA[3.0.0.1]]></version>
+			</sPlug>
+			<pStyle>
+				<v id="accent">50</v>
+				<v id="bendDep">8</v>
+				<v id="bendLen">0</v>
+				<v id="decay">50</v>
+				<v id="fallPort">0</v>
+				<v id="opening">127</v>
+				<v id="risePort">0</v>
+			</pStyle>
+			<singer>
+				<t>0</t>
+				<bs>0</bs>
+				<pc>0</pc>
+			</singer>
+			<cc><t>155</t><v id="B">28</v></cc>
+			<cc><t>161</t><v id="B">31</v></cc>
+			<cc><t>165</t><v id="B">34</v></cc>
+			<cc><t>171</t><v id="B">38</v></cc>
+			<cc><t>175</t><v id="B">41</v></cc>
+			<cc><t>181</t><v id="B">44</v></cc>
+			<cc><t>185</t><v id="B">48</v></cc>
+			<cc><t>191</t><v id="B">50</v></cc>
+			<cc><t>195</t><v id="B">52</v></cc>
+			<cc><t>201</t><v id="B">54</v></cc>
+			<cc><t>205</t><v id="B">56</v></cc>
+			<cc><t>211</t><v id="B">58</v></cc>
+			<cc><t>215</t><v id="B">60</v></cc>
+			<cc><t>221</t><v id="B">62</v></cc>
+			<cc><t>225</t><v id="B">64</v></cc>
+			<cc><t>231</t><v id="B">66</v></cc>
+			<cc><t>235</t><v id="B">69</v></cc>
+			<cc><t>245</t><v id="B">71</v></cc>
+			<cc><t>251</t><v id="B">72</v></cc>
+			<cc><t>255</t><v id="B">73</v></cc>
+			<cc><t>261</t><v id="B">74</v></cc>
+			<cc><t>265</t><v id="B">75</v></cc>
+			<cc><t>271</t><v id="B">76</v></cc>
+			<cc><t>275</t><v id="B">77</v></cc>
+			<cc><t>281</t><v id="B">78</v></cc>
+			<cc><t>285</t><v id="B">80</v></cc>
+			<cc><t>291</t><v id="B">81</v></cc>
+			<cc><t>295</t><v id="B">82</v></cc>
+			<cc><t>301</t><v id="B">83</v></cc>
+			<cc><t>305</t><v id="B">84</v></cc>
+			<cc><t>311</t><v id="B">85</v></cc>
+			<cc><t>315</t><v id="B">86</v></cc>
+			<cc><t>321</t><v id="B">88</v></cc>
+			<cc><t>325</t><v id="B">89</v></cc>
+			<cc><t>331</t><v id="B">90</v></cc>
+			<cc><t>335</t><v id="B">91</v></cc>
+			<cc><t>341</t><v id="B">92</v></cc>
+			<cc><t>345</t><v id="B">94</v></cc>
+			<cc><t>351</t><v id="B">95</v></cc>
+			<cc><t>355</t><v id="B">97</v></cc>
+			<cc><t>361</t><v id="B">98</v></cc>
+			<cc><t>365</t><v id="B">100</v></cc>
+			<cc><t>371</t><v id="B">101</v></cc>
+			<cc><t>381</t><v id="B">102</v></cc>
+			<cc><t>385</t><v id="B">103</v></cc>
+			<cc><t>395</t><v id="B">104</v></cc>
+			<cc><t>401</t><v id="B">105</v></cc>
+			<cc><t>405</t><v id="B">106</v></cc>
+			<cc><t>411</t><v id="B">107</v></cc>
+			<cc><t>421</t><v id="B">108</v></cc>
+			<cc><t>425</t><v id="B">109</v></cc>
+			<cc><t>435</t><v id="B">110</v></cc>
+			<cc><t>441</t><v id="B">111</v></cc>
+			<cc><t>445</t><v id="B">112</v></cc>
+			<cc><t>451</t><v id="B">113</v></cc>
+			<cc><t>461</t><v id="B">114</v></cc>
+			<cc><t>465</t><v id="B">115</v></cc>
+			<cc><t>475</t><v id="B">116</v></cc>
+			<cc><t>481</t><v id="B">117</v></cc>
+			<cc><t>485</t><v id="B">118</v></cc>
+			<cc><t>491</t><v id="B">119</v></cc>
+			<cc><t>501</t><v id="B">120</v></cc>
+			<cc><t>505</t><v id="B">121</v></cc>
+			<cc><t>515</t><v id="B">122</v></cc>
+			<cc><t>521</t><v id="B">123</v></cc>
+			<cc><t>525</t><v id="B">124</v></cc>
+			<cc><t>535</t><v id="B">125</v></cc>
+			<cc><t>555</t><v id="B">126</v></cc>
+			<cc><t>561</t><v id="B">127</v></cc>
+			<cc><t>1301</t><v id="B">126</v></cc>
+			<cc><t>1305</t><v id="B">124</v></cc>
+			<cc><t>1311</t><v id="B">121</v></cc>
+			<cc><t>1315</t><v id="B">119</v></cc>
+			<cc><t>1321</t><v id="B">116</v></cc>
+			<cc><t>1325</t><v id="B">113</v></cc>
+			<cc><t>1331</t><v id="B">111</v></cc>
+			<cc><t>1335</t><v id="B">109</v></cc>
+			<cc><t>1341</t><v id="B">107</v></cc>
+			<cc><t>1345</t><v id="B">105</v></cc>
+			<cc><t>1351</t><v id="B">103</v></cc>
+			<cc><t>1355</t><v id="B">101</v></cc>
+			<cc><t>1361</t><v id="B">100</v></cc>
+			<cc><t>1365</t><v id="B">98</v></cc>
+			<cc><t>1371</t><v id="B">96</v></cc>
+			<cc><t>1375</t><v id="B">94</v></cc>
+			<cc><t>1381</t><v id="B">92</v></cc>
+			<cc><t>1385</t><v id="B">90</v></cc>
+			<cc><t>1391</t><v id="B">88</v></cc>
+			<cc><t>1395</t><v id="B">85</v></cc>
+			<cc><t>1401</t><v id="B">82</v></cc>
+			<cc><t>1405</t><v id="B">79</v></cc>
+			<cc><t>1411</t><v id="B">76</v></cc>
+			<cc><t>1415</t><v id="B">73</v></cc>
+			<cc><t>1421</t><v id="B">70</v></cc>
+			<cc><t>1425</t><v id="B">67</v></cc>
+			<cc><t>1431</t><v id="B">63</v></cc>
+			<cc><t>1435</t><v id="B">60</v></cc>
+			<cc><t>1441</t><v id="B">57</v></cc>
+			<cc><t>1445</t><v id="B">53</v></cc>
+			<cc><t>1451</t><v id="B">50</v></cc>
+			<cc><t>1455</t><v id="B">46</v></cc>
+			<cc><t>1461</t><v id="B">43</v></cc>
+			<cc><t>1465</t><v id="B">40</v></cc>
+			<cc><t>1471</t><v id="B">36</v></cc>
+			<cc><t>1475</t><v id="B">30</v></cc>
+			<cc><t>1481</t><v id="B">24</v></cc>
+			<cc><t>1485</t><v id="B">21</v></cc>
+			<cc><t>1491</t><v id="B">17</v></cc>
+			<cc><t>1495</t><v id="B">13</v></cc>
+			<cc><t>1501</t><v id="B">11</v></cc>
+			<cc><t>1505</t><v id="B">9</v></cc>
+			<cc><t>1511</t><v id="B">7</v></cc>
+			<cc><t>1515</t><v id="B">4</v></cc>
+			<cc><t>1521</t><v id="B">2</v></cc>
+			<cc><t>1525</t><v id="B">0</v></cc>
+			<cc><t>2465</t><v id="B">3</v></cc>
+			<cc><t>2471</t><v id="B">8</v></cc>
+			<cc><t>2475</t><v id="B">127</v></cc>
+			<cc><t>2925</t><v id="B">126</v></cc>
+			<cc><t>2931</t><v id="B">125</v></cc>
+			<cc><t>2941</t><v id="B">124</v></cc>
+			<cc><t>2945</t><v id="B">123</v></cc>
+			<cc><t>2951</t><v id="B">120</v></cc>
+			<cc><t>2955</t><v id="B">117</v></cc>
+			<cc><t>2961</t><v id="B">113</v></cc>
+			<cc><t>2965</t><v id="B">110</v></cc>
+			<cc><t>2971</t><v id="B">106</v></cc>
+			<cc><t>2975</t><v id="B">102</v></cc>
+			<cc><t>2981</t><v id="B">100</v></cc>
+			<cc><t>2985</t><v id="B">97</v></cc>
+			<cc><t>2991</t><v id="B">94</v></cc>
+			<cc><t>2995</t><v id="B">92</v></cc>
+			<cc><t>3001</t><v id="B">89</v></cc>
+			<cc><t>3005</t><v id="B">86</v></cc>
+			<cc><t>3011</t><v id="B">84</v></cc>
+			<cc><t>3015</t><v id="B">81</v></cc>
+			<cc><t>3021</t><v id="B">78</v></cc>
+			<cc><t>3025</t><v id="B">76</v></cc>
+			<cc><t>3031</t><v id="B">73</v></cc>
+			<cc><t>3035</t><v id="B">69</v></cc>
+			<cc><t>3041</t><v id="B">65</v></cc>
+			<cc><t>3045</t><v id="B">61</v></cc>
+			<cc><t>3051</t><v id="B">57</v></cc>
+			<cc><t>3055</t><v id="B">52</v></cc>
+			<cc><t>3061</t><v id="B">47</v></cc>
+			<cc><t>3065</t><v id="B">42</v></cc>
+			<cc><t>3071</t><v id="B">37</v></cc>
+			<cc><t>3075</t><v id="B">32</v></cc>
+			<cc><t>3081</t><v id="B">27</v></cc>
+			<cc><t>3085</t><v id="B">22</v></cc>
+			<cc><t>3091</t><v id="B">17</v></cc>
+			<cc><t>3095</t><v id="B">6</v></cc>
+			<cc><t>3101</t><v id="B">5</v></cc>
+			<cc><t>3111</t><v id="B">4</v></cc>
+			<cc><t>3115</t><v id="B">3</v></cc>
+			<cc><t>3125</t><v id="B">2</v></cc>
+			<cc><t>3131</t><v id="B">1</v></cc>
+			<cc><t>3141</t><v id="B">0</v></cc>
+			<note>
+				<t>960</t>
+				<dur>480</dur>
+				<n>73</n>
+				<v>64</v>
+				<y><![CDATA[a]]></y>
+				<p><![CDATA[a]]></p>
+				<nStyle>
+					<v id="accent">50</v>
+					<v id="bendDep">0</v>
+					<v id="bendLen">0</v>
+					<v id="decay">50</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">66</v>
+					<v id="vibType">1</v>
+					<seq id="vibDep">
+						<cc><p>22391</p><v>64</v></cc>
+					</seq>
+					<seq id="vibRate">
+						<cc><p>22391</p><v>50</v></cc>
+					</seq>
+				</nStyle>
+			</note>
+			<plane>0</plane>
+		</vsPart>
+		<vsPart>
+			<t>48960</t>
+			<playTime>3840</playTime>
+			<name><![CDATA[CLE]]></name>
+			<comment><![CDATA[New Musical Part]]></comment>
+			<sPlug>
+				<id><![CDATA[ACA9C502-A04B-42b5-B2EB-5CEA36D16FCE]]></id>
+				<name><![CDATA[VOCALOID2 Compatible Style]]></name>
+				<version><![CDATA[3.0.0.1]]></version>
+			</sPlug>
+			<pStyle>
+				<v id="accent">50</v>
+				<v id="bendDep">8</v>
+				<v id="bendLen">0</v>
+				<v id="decay">50</v>
+				<v id="fallPort">0</v>
+				<v id="opening">127</v>
+				<v id="risePort">0</v>
+			</pStyle>
+			<singer>
+				<t>0</t>
+				<bs>0</bs>
+				<pc>0</pc>
+			</singer>
+			<cc><t>250</t><v id="C">65</v></cc>
+			<cc><t>256</t><v id="C">69</v></cc>
+			<cc><t>260</t><v id="C">73</v></cc>
+			<cc><t>266</t><v id="C">89</v></cc>
+			<cc><t>270</t><v id="C">105</v></cc>
+			<cc><t>276</t><v id="C">110</v></cc>
+			<cc><t>280</t><v id="C">115</v></cc>
+			<cc><t>286</t><v id="C">127</v></cc>
+			<cc><t>1086</t><v id="C">124</v></cc>
+			<cc><t>1090</t><v id="C">121</v></cc>
+			<cc><t>1096</t><v id="C">2</v></cc>
+			<cc><t>1100</t><v id="C">1</v></cc>
+			<cc><t>1106</t><v id="C">0</v></cc>
+			<cc><t>1776</t><v id="C">127</v></cc>
+			<cc><t>2196</t><v id="C">85</v></cc>
+			<cc><t>2200</t><v id="C">82</v></cc>
+			<cc><t>2206</t><v id="C">80</v></cc>
+			<cc><t>2210</t><v id="C">78</v></cc>
+			<cc><t>2216</t><v id="C">75</v></cc>
+			<cc><t>2220</t><v id="C">73</v></cc>
+			<cc><t>2226</t><v id="C">70</v></cc>
+			<cc><t>2230</t><v id="C">63</v></cc>
+			<cc><t>2236</t><v id="C">61</v></cc>
+			<cc><t>2240</t><v id="C">59</v></cc>
+			<cc><t>2246</t><v id="C">57</v></cc>
+			<cc><t>2250</t><v id="C">53</v></cc>
+			<cc><t>2256</t><v id="C">51</v></cc>
+			<cc><t>2260</t><v id="C">49</v></cc>
+			<cc><t>2266</t><v id="C">46</v></cc>
+			<cc><t>2276</t><v id="C">45</v></cc>
+			<cc><t>2280</t><v id="C">44</v></cc>
+			<cc><t>2286</t><v id="C">43</v></cc>
+			<cc><t>2290</t><v id="C">40</v></cc>
+			<cc><t>2300</t><v id="C">38</v></cc>
+			<cc><t>2330</t><v id="C">37</v></cc>
+			<cc><t>2340</t><v id="C">36</v></cc>
+			<cc><t>2360</t><v id="C">35</v></cc>
+			<cc><t>2370</t><v id="C">34</v></cc>
+			<cc><t>2410</t><v id="C">33</v></cc>
+			<cc><t>2426</t><v id="C">32</v></cc>
+			<cc><t>2606</t><v id="C">34</v></cc>
+			<cc><t>2610</t><v id="C">35</v></cc>
+			<cc><t>2616</t><v id="C">36</v></cc>
+			<cc><t>2626</t><v id="C">38</v></cc>
+			<cc><t>2636</t><v id="C">40</v></cc>
+			<cc><t>2640</t><v id="C">42</v></cc>
+			<cc><t>2646</t><v id="C">44</v></cc>
+			<cc><t>2650</t><v id="C">51</v></cc>
+			<cc><t>2656</t><v id="C">53</v></cc>
+			<cc><t>2660</t><v id="C">65</v></cc>
+			<cc><t>2666</t><v id="C">71</v></cc>
+			<cc><t>2670</t><v id="C">77</v></cc>
+			<cc><t>2676</t><v id="C">83</v></cc>
+			<cc><t>2680</t><v id="C">88</v></cc>
+			<cc><t>2686</t><v id="C">89</v></cc>
+			<cc><t>2690</t><v id="C">90</v></cc>
+			<cc><t>2696</t><v id="C">92</v></cc>
+			<cc><t>2706</t><v id="C">94</v></cc>
+			<cc><t>2710</t><v id="C">95</v></cc>
+			<cc><t>2716</t><v id="C">96</v></cc>
+			<cc><t>2720</t><v id="C">98</v></cc>
+			<cc><t>2726</t><v id="C">99</v></cc>
+			<cc><t>2730</t><v id="C">101</v></cc>
+			<cc><t>2736</t><v id="C">103</v></cc>
+			<cc><t>2750</t><v id="C">104</v></cc>
+			<cc><t>2760</t><v id="C">105</v></cc>
+			<cc><t>2770</t><v id="C">106</v></cc>
+			<cc><t>2776</t><v id="C">107</v></cc>
+			<cc><t>2780</t><v id="C">108</v></cc>
+			<cc><t>2790</t><v id="C">109</v></cc>
+			<cc><t>2810</t><v id="C">110</v></cc>
+			<cc><t>2820</t><v id="C">111</v></cc>
+			<cc><t>2846</t><v id="C">112</v></cc>
+			<cc><t>2860</t><v id="C">113</v></cc>
+			<cc><t>2960</t><v id="C">114</v></cc>
+			<cc><t>3000</t><v id="C">115</v></cc>
+			<cc><t>3116</t><v id="C">127</v></cc>
+			<cc><t>3360</t><v id="C">126</v></cc>
+			<cc><t>3366</t><v id="C">123</v></cc>
+			<cc><t>3370</t><v id="C">70</v></cc>
+			<cc><t>3376</t><v id="C">67</v></cc>
+			<cc><t>3380</t><v id="C">65</v></cc>
+			<cc><t>3386</t><v id="C">64</v></cc>
+			<cc><t>3390</t><v id="C">61</v></cc>
+			<cc><t>3396</t><v id="C">59</v></cc>
+			<cc><t>3400</t><v id="C">57</v></cc>
+			<cc><t>3406</t><v id="C">53</v></cc>
+			<cc><t>3416</t><v id="C">51</v></cc>
+			<cc><t>3420</t><v id="C">50</v></cc>
+			<cc><t>3426</t><v id="C">47</v></cc>
+			<cc><t>3430</t><v id="C">44</v></cc>
+			<cc><t>3436</t><v id="C">42</v></cc>
+			<cc><t>3456</t><v id="C">41</v></cc>
+			<cc><t>3470</t><v id="C">40</v></cc>
+			<cc><t>3490</t><v id="C">39</v></cc>
+			<cc><t>3526</t><v id="C">38</v></cc>
+			<cc><t>3550</t><v id="C">37</v></cc>
+			<cc><t>3560</t><v id="C">36</v></cc>
+			<cc><t>3570</t><v id="C">34</v></cc>
+			<cc><t>3576</t><v id="C">33</v></cc>
+			<cc><t>3580</t><v id="C">31</v></cc>
+			<cc><t>3586</t><v id="C">30</v></cc>
+			<cc><t>3590</t><v id="C">29</v></cc>
+			<cc><t>3596</t><v id="C">28</v></cc>
+			<cc><t>3600</t><v id="C">26</v></cc>
+			<cc><t>3610</t><v id="C">23</v></cc>
+			<cc><t>3616</t><v id="C">22</v></cc>
+			<cc><t>3626</t><v id="C">21</v></cc>
+			<cc><t>3630</t><v id="C">20</v></cc>
+			<cc><t>3636</t><v id="C">19</v></cc>
+			<cc><t>3640</t><v id="C">18</v></cc>
+			<cc><t>3646</t><v id="C">17</v></cc>
+			<cc><t>3650</t><v id="C">15</v></cc>
+			<cc><t>3656</t><v id="C">13</v></cc>
+			<cc><t>3666</t><v id="C">11</v></cc>
+			<cc><t>3676</t><v id="C">9</v></cc>
+			<cc><t>3686</t><v id="C">7</v></cc>
+			<cc><t>3690</t><v id="C">6</v></cc>
+			<cc><t>3696</t><v id="C">5</v></cc>
+			<cc><t>3706</t><v id="C">4</v></cc>
+			<cc><t>3710</t><v id="C">3</v></cc>
+			<cc><t>3716</t><v id="C">1</v></cc>
+			<cc><t>3720</t><v id="C">0</v></cc>
+			<note>
+				<t>1680</t>
+				<dur>480</dur>
+				<n>75</n>
+				<v>64</v>
+				<y><![CDATA[a]]></y>
+				<p><![CDATA[a]]></p>
+				<nStyle>
+					<v id="accent">50</v>
+					<v id="bendDep">0</v>
+					<v id="bendLen">0</v>
+					<v id="decay">50</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">66</v>
+					<v id="vibType">1</v>
+					<seq id="vibDep">
+						<cc><p>22391</p><v>64</v></cc>
+					</seq>
+					<seq id="vibRate">
+						<cc><p>22391</p><v>50</v></cc>
+					</seq>
+				</nStyle>
+			</note>
+			<plane>0</plane>
+		</vsPart>
+		<vsPart>
+			<t>54720</t>
+			<playTime>5365</playTime>
+			<name><![CDATA[POR is TRACK]]></name>
+			<comment><![CDATA[New Musical Part]]></comment>
+			<sPlug>
+				<id><![CDATA[ACA9C502-A04B-42b5-B2EB-5CEA36D16FCE]]></id>
+				<name><![CDATA[VOCALOID2 Compatible Style]]></name>
+				<version><![CDATA[3.0.0.1]]></version>
+			</sPlug>
+			<pStyle>
+				<v id="accent">50</v>
+				<v id="bendDep">8</v>
+				<v id="bendLen">0</v>
+				<v id="decay">50</v>
+				<v id="fallPort">0</v>
+				<v id="opening">127</v>
+				<v id="risePort">0</v>
+			</pStyle>
+			<singer>
+				<t>0</t>
+				<bs>0</bs>
+				<pc>0</pc>
+			</singer>
+			<cc><t>215</t><v id="T">67</v></cc>
+			<cc><t>221</t><v id="T">69</v></cc>
+			<cc><t>225</t><v id="T">71</v></cc>
+			<cc><t>231</t><v id="T">74</v></cc>
+			<cc><t>235</t><v id="T">76</v></cc>
+			<cc><t>241</t><v id="T">78</v></cc>
+			<cc><t>245</t><v id="T">80</v></cc>
+			<cc><t>251</t><v id="T">82</v></cc>
+			<cc><t>255</t><v id="T">83</v></cc>
+			<cc><t>261</t><v id="T">84</v></cc>
+			<cc><t>265</t><v id="T">86</v></cc>
+			<cc><t>271</t><v id="T">87</v></cc>
+			<cc><t>275</t><v id="T">88</v></cc>
+			<cc><t>281</t><v id="T">90</v></cc>
+			<cc><t>285</t><v id="T">91</v></cc>
+			<cc><t>291</t><v id="T">93</v></cc>
+			<cc><t>295</t><v id="T">94</v></cc>
+			<cc><t>301</t><v id="T">95</v></cc>
+			<cc><t>305</t><v id="T">96</v></cc>
+			<cc><t>311</t><v id="T">97</v></cc>
+			<cc><t>315</t><v id="T">98</v></cc>
+			<cc><t>321</t><v id="T">100</v></cc>
+			<cc><t>325</t><v id="T">101</v></cc>
+			<cc><t>335</t><v id="T">103</v></cc>
+			<cc><t>341</t><v id="T">104</v></cc>
+			<cc><t>345</t><v id="T">105</v></cc>
+			<cc><t>351</t><v id="T">106</v></cc>
+			<cc><t>355</t><v id="T">107</v></cc>
+			<cc><t>365</t><v id="T">109</v></cc>
+			<cc><t>375</t><v id="T">110</v></cc>
+			<cc><t>381</t><v id="T">111</v></cc>
+			<cc><t>385</t><v id="T">112</v></cc>
+			<cc><t>391</t><v id="T">113</v></cc>
+			<cc><t>401</t><v id="T">114</v></cc>
+			<cc><t>405</t><v id="T">115</v></cc>
+			<cc><t>415</t><v id="T">116</v></cc>
+			<cc><t>421</t><v id="T">117</v></cc>
+			<cc><t>431</t><v id="T">119</v></cc>
+			<cc><t>465</t><v id="T">120</v></cc>
+			<cc><t>481</t><v id="T">121</v></cc>
+			<cc><t>525</t><v id="T">120</v></cc>
+			<cc><t>551</t><v id="T">119</v></cc>
+			<cc><t>581</t><v id="T">118</v></cc>
+			<cc><t>595</t><v id="T">117</v></cc>
+			<cc><t>615</t><v id="T">116</v></cc>
+			<cc><t>625</t><v id="T">115</v></cc>
+			<cc><t>645</t><v id="T">114</v></cc>
+			<cc><t>655</t><v id="T">113</v></cc>
+			<cc><t>671</t><v id="T">112</v></cc>
+			<cc><t>681</t><v id="T">111</v></cc>
+			<cc><t>711</t><v id="T">110</v></cc>
+			<cc><t>725</t><v id="T">109</v></cc>
+			<cc><t>745</t><v id="T">108</v></cc>
+			<cc><t>751</t><v id="T">107</v></cc>
+			<cc><t>761</t><v id="T">106</v></cc>
+			<cc><t>775</t><v id="T">105</v></cc>
+			<cc><t>791</t><v id="T">103</v></cc>
+			<cc><t>795</t><v id="T">102</v></cc>
+			<cc><t>805</t><v id="T">101</v></cc>
+			<cc><t>811</t><v id="T">100</v></cc>
+			<cc><t>815</t><v id="T">99</v></cc>
+			<cc><t>821</t><v id="T">98</v></cc>
+			<cc><t>825</t><v id="T">97</v></cc>
+			<cc><t>831</t><v id="T">96</v></cc>
+			<cc><t>835</t><v id="T">94</v></cc>
+			<cc><t>841</t><v id="T">92</v></cc>
+			<cc><t>845</t><v id="T">91</v></cc>
+			<cc><t>851</t><v id="T">90</v></cc>
+			<cc><t>855</t><v id="T">89</v></cc>
+			<cc><t>861</t><v id="T">88</v></cc>
+			<cc><t>865</t><v id="T">86</v></cc>
+			<cc><t>875</t><v id="T">84</v></cc>
+			<cc><t>881</t><v id="T">83</v></cc>
+			<cc><t>885</t><v id="T">80</v></cc>
+			<cc><t>891</t><v id="T">78</v></cc>
+			<cc><t>895</t><v id="T">76</v></cc>
+			<cc><t>901</t><v id="T">75</v></cc>
+			<cc><t>905</t><v id="T">72</v></cc>
+			<cc><t>911</t><v id="T">70</v></cc>
+			<cc><t>915</t><v id="T">67</v></cc>
+			<cc><t>921</t><v id="T">65</v></cc>
+			<cc><t>925</t><v id="T">64</v></cc>
+			<cc><t>931</t><v id="T">60</v></cc>
+			<cc><t>935</t><v id="T">59</v></cc>
+			<cc><t>941</t><v id="T">57</v></cc>
+			<cc><t>945</t><v id="T">56</v></cc>
+			<cc><t>951</t><v id="T">55</v></cc>
+			<cc><t>955</t><v id="T">53</v></cc>
+			<cc><t>961</t><v id="T">51</v></cc>
+			<cc><t>965</t><v id="T">48</v></cc>
+			<cc><t>971</t><v id="T">47</v></cc>
+			<cc><t>975</t><v id="T">46</v></cc>
+			<cc><t>985</t><v id="T">44</v></cc>
+			<cc><t>991</t><v id="T">43</v></cc>
+			<cc><t>995</t><v id="T">42</v></cc>
+			<cc><t>1001</t><v id="T">40</v></cc>
+			<cc><t>1005</t><v id="T">38</v></cc>
+			<cc><t>1011</t><v id="T">36</v></cc>
+			<cc><t>1015</t><v id="T">35</v></cc>
+			<cc><t>1021</t><v id="T">34</v></cc>
+			<cc><t>1031</t><v id="T">33</v></cc>
+			<cc><t>1035</t><v id="T">32</v></cc>
+			<cc><t>1045</t><v id="T">29</v></cc>
+			<cc><t>1051</t><v id="T">28</v></cc>
+			<cc><t>1055</t><v id="T">26</v></cc>
+			<cc><t>1061</t><v id="T">25</v></cc>
+			<cc><t>1071</t><v id="T">24</v></cc>
+			<cc><t>1075</t><v id="T">23</v></cc>
+			<cc><t>1085</t><v id="T">22</v></cc>
+			<cc><t>1091</t><v id="T">21</v></cc>
+			<cc><t>1101</t><v id="T">20</v></cc>
+			<cc><t>1105</t><v id="T">19</v></cc>
+			<cc><t>1115</t><v id="T">18</v></cc>
+			<cc><t>1121</t><v id="T">17</v></cc>
+			<cc><t>1135</t><v id="T">16</v></cc>
+			<cc><t>1141</t><v id="T">15</v></cc>
+			<cc><t>1151</t><v id="T">14</v></cc>
+			<cc><t>1155</t><v id="T">13</v></cc>
+			<cc><t>1181</t><v id="T">12</v></cc>
+			<cc><t>1185</t><v id="T">11</v></cc>
+			<cc><t>1195</t><v id="T">10</v></cc>
+			<cc><t>1201</t><v id="T">9</v></cc>
+			<cc><t>1205</t><v id="T">8</v></cc>
+			<cc><t>1221</t><v id="T">7</v></cc>
+			<cc><t>1361</t><v id="T">6</v></cc>
+			<cc><t>1371</t><v id="T">5</v></cc>
+			<cc><t>1391</t><v id="T">4</v></cc>
+			<cc><t>1395</t><v id="T">3</v></cc>
+			<cc><t>1435</t><v id="T">2</v></cc>
+			<cc><t>1445</t><v id="T">1</v></cc>
+			<cc><t>1471</t><v id="T">0</v></cc>
+			<cc><t>1721</t><v id="T">1</v></cc>
+			<cc><t>1725</t><v id="T">3</v></cc>
+			<cc><t>1731</t><v id="T">5</v></cc>
+			<cc><t>1735</t><v id="T">8</v></cc>
+			<cc><t>1741</t><v id="T">11</v></cc>
+			<cc><t>1745</t><v id="T">20</v></cc>
+			<cc><t>1751</t><v id="T">29</v></cc>
+			<cc><t>1755</t><v id="T">32</v></cc>
+			<cc><t>1761</t><v id="T">36</v></cc>
+			<cc><t>1765</t><v id="T">43</v></cc>
+			<cc><t>1771</t><v id="T">48</v></cc>
+			<cc><t>1775</t><v id="T">50</v></cc>
+			<cc><t>1781</t><v id="T">53</v></cc>
+			<cc><t>1785</t><v id="T">61</v></cc>
+			<cc><t>1791</t><v id="T">66</v></cc>
+			<cc><t>1795</t><v id="T">71</v></cc>
+			<cc><t>1801</t><v id="T">79</v></cc>
+			<cc><t>1805</t><v id="T">81</v></cc>
+			<cc><t>1811</t><v id="T">84</v></cc>
+			<cc><t>1815</t><v id="T">86</v></cc>
+			<cc><t>1821</t><v id="T">88</v></cc>
+			<cc><t>1825</t><v id="T">91</v></cc>
+			<cc><t>1831</t><v id="T">97</v></cc>
+			<cc><t>1835</t><v id="T">103</v></cc>
+			<cc><t>1841</t><v id="T">109</v></cc>
+			<cc><t>1845</t><v id="T">113</v></cc>
+			<cc><t>1851</t><v id="T">115</v></cc>
+			<cc><t>1855</t><v id="T">119</v></cc>
+			<cc><t>1861</t><v id="T">127</v></cc>
+			<cc><t>2585</t><v id="T">125</v></cc>
+			<cc><t>2591</t><v id="T">124</v></cc>
+			<cc><t>2595</t><v id="T">123</v></cc>
+			<cc><t>2601</t><v id="T">121</v></cc>
+			<cc><t>2611</t><v id="T">120</v></cc>
+			<cc><t>2615</t><v id="T">119</v></cc>
+			<cc><t>2621</t><v id="T">117</v></cc>
+			<cc><t>2625</t><v id="T">115</v></cc>
+			<cc><t>2631</t><v id="T">113</v></cc>
+			<cc><t>2635</t><v id="T">111</v></cc>
+			<cc><t>2641</t><v id="T">108</v></cc>
+			<cc><t>2645</t><v id="T">107</v></cc>
+			<cc><t>2655</t><v id="T">105</v></cc>
+			<cc><t>2665</t><v id="T">103</v></cc>
+			<cc><t>2671</t><v id="T">101</v></cc>
+			<cc><t>2675</t><v id="T">100</v></cc>
+			<cc><t>2681</t><v id="T">97</v></cc>
+			<cc><t>2685</t><v id="T">95</v></cc>
+			<cc><t>2691</t><v id="T">93</v></cc>
+			<cc><t>2695</t><v id="T">91</v></cc>
+			<cc><t>2701</t><v id="T">89</v></cc>
+			<cc><t>2705</t><v id="T">87</v></cc>
+			<cc><t>2711</t><v id="T">85</v></cc>
+			<cc><t>2715</t><v id="T">83</v></cc>
+			<cc><t>2721</t><v id="T">81</v></cc>
+			<cc><t>2725</t><v id="T">78</v></cc>
+			<cc><t>2731</t><v id="T">76</v></cc>
+			<cc><t>2735</t><v id="T">75</v></cc>
+			<cc><t>2741</t><v id="T">73</v></cc>
+			<cc><t>2745</t><v id="T">71</v></cc>
+			<cc><t>2751</t><v id="T">69</v></cc>
+			<cc><t>2755</t><v id="T">67</v></cc>
+			<cc><t>2761</t><v id="T">65</v></cc>
+			<cc><t>2765</t><v id="T">61</v></cc>
+			<cc><t>2771</t><v id="T">57</v></cc>
+			<cc><t>2775</t><v id="T">54</v></cc>
+			<cc><t>2781</t><v id="T">51</v></cc>
+			<cc><t>2785</t><v id="T">49</v></cc>
+			<cc><t>2791</t><v id="T">46</v></cc>
+			<cc><t>2795</t><v id="T">43</v></cc>
+			<cc><t>2801</t><v id="T">40</v></cc>
+			<cc><t>2805</t><v id="T">37</v></cc>
+			<cc><t>2811</t><v id="T">34</v></cc>
+			<cc><t>2815</t><v id="T">31</v></cc>
+			<cc><t>2821</t><v id="T">28</v></cc>
+			<cc><t>2825</t><v id="T">25</v></cc>
+			<cc><t>2831</t><v id="T">23</v></cc>
+			<cc><t>2835</t><v id="T">20</v></cc>
+			<cc><t>2841</t><v id="T">17</v></cc>
+			<cc><t>2845</t><v id="T">15</v></cc>
+			<cc><t>2851</t><v id="T">12</v></cc>
+			<cc><t>2855</t><v id="T">9</v></cc>
+			<cc><t>2861</t><v id="T">8</v></cc>
+			<cc><t>2865</t><v id="T">7</v></cc>
+			<cc><t>2871</t><v id="T">6</v></cc>
+			<cc><t>2875</t><v id="T">5</v></cc>
+			<cc><t>2881</t><v id="T">4</v></cc>
+			<cc><t>2885</t><v id="T">3</v></cc>
+			<cc><t>2891</t><v id="T">1</v></cc>
+			<cc><t>2901</t><v id="T">0</v></cc>
+			<cc><t>3215</t><v id="T">109</v></cc>
+			<cc><t>3221</t><v id="T">113</v></cc>
+			<cc><t>3225</t><v id="T">115</v></cc>
+			<cc><t>3231</t><v id="T">119</v></cc>
+			<cc><t>3241</t><v id="T">120</v></cc>
+			<cc><t>3245</t><v id="T">121</v></cc>
+			<cc><t>3251</t><v id="T">122</v></cc>
+			<cc><t>3255</t><v id="T">123</v></cc>
+			<cc><t>3265</t><v id="T">125</v></cc>
+			<cc><t>3275</t><v id="T">127</v></cc>
+			<cc><t>3715</t><v id="T">126</v></cc>
+			<cc><t>3721</t><v id="T">125</v></cc>
+			<cc><t>3731</t><v id="T">123</v></cc>
+			<cc><t>3735</t><v id="T">121</v></cc>
+			<cc><t>3741</t><v id="T">119</v></cc>
+			<cc><t>3745</t><v id="T">117</v></cc>
+			<cc><t>3751</t><v id="T">112</v></cc>
+			<cc><t>3755</t><v id="T">109</v></cc>
+			<cc><t>3761</t><v id="T">107</v></cc>
+			<cc><t>3765</t><v id="T">104</v></cc>
+			<cc><t>3771</t><v id="T">101</v></cc>
+			<cc><t>3775</t><v id="T">99</v></cc>
+			<cc><t>3781</t><v id="T">96</v></cc>
+			<cc><t>3785</t><v id="T">94</v></cc>
+			<cc><t>3791</t><v id="T">92</v></cc>
+			<cc><t>3795</t><v id="T">89</v></cc>
+			<cc><t>3801</t><v id="T">86</v></cc>
+			<cc><t>3805</t><v id="T">83</v></cc>
+			<cc><t>3811</t><v id="T">80</v></cc>
+			<cc><t>3815</t><v id="T">77</v></cc>
+			<cc><t>3821</t><v id="T">75</v></cc>
+			<cc><t>3825</t><v id="T">72</v></cc>
+			<cc><t>3831</t><v id="T">69</v></cc>
+			<cc><t>3835</t><v id="T">67</v></cc>
+			<cc><t>3841</t><v id="T">64</v></cc>
+			<cc><t>3845</t><v id="T">61</v></cc>
+			<cc><t>3851</t><v id="T">58</v></cc>
+			<cc><t>3855</t><v id="T">56</v></cc>
+			<cc><t>3861</t><v id="T">54</v></cc>
+			<cc><t>3865</t><v id="T">51</v></cc>
+			<cc><t>3871</t><v id="T">46</v></cc>
+			<cc><t>3875</t><v id="T">42</v></cc>
+			<cc><t>3881</t><v id="T">39</v></cc>
+			<cc><t>3885</t><v id="T">35</v></cc>
+			<cc><t>3891</t><v id="T">34</v></cc>
+			<cc><t>3895</t><v id="T">32</v></cc>
+			<cc><t>3901</t><v id="T">30</v></cc>
+			<cc><t>3905</t><v id="T">28</v></cc>
+			<cc><t>3911</t><v id="T">26</v></cc>
+			<cc><t>3915</t><v id="T">23</v></cc>
+			<cc><t>3921</t><v id="T">21</v></cc>
+			<cc><t>3925</t><v id="T">19</v></cc>
+			<cc><t>3931</t><v id="T">18</v></cc>
+			<cc><t>3935</t><v id="T">17</v></cc>
+			<cc><t>3941</t><v id="T">15</v></cc>
+			<cc><t>3945</t><v id="T">14</v></cc>
+			<cc><t>3951</t><v id="T">13</v></cc>
+			<cc><t>3955</t><v id="T">11</v></cc>
+			<cc><t>3961</t><v id="T">9</v></cc>
+			<cc><t>3965</t><v id="T">7</v></cc>
+			<cc><t>3971</t><v id="T">4</v></cc>
+			<cc><t>3975</t><v id="T">3</v></cc>
+			<cc><t>3981</t><v id="T">1</v></cc>
+			<cc><t>3985</t><v id="T">0</v></cc>
+			<cc><t>4365</t><v id="T">1</v></cc>
+			<cc><t>4385</t><v id="T">2</v></cc>
+			<cc><t>4395</t><v id="T">3</v></cc>
+			<cc><t>4411</t><v id="T">4</v></cc>
+			<cc><t>4421</t><v id="T">5</v></cc>
+			<cc><t>4441</t><v id="T">6</v></cc>
+			<cc><t>4445</t><v id="T">7</v></cc>
+			<cc><t>4461</t><v id="T">8</v></cc>
+			<cc><t>4465</t><v id="T">9</v></cc>
+			<cc><t>4475</t><v id="T">10</v></cc>
+			<cc><t>4481</t><v id="T">11</v></cc>
+			<cc><t>4491</t><v id="T">12</v></cc>
+			<cc><t>4495</t><v id="T">13</v></cc>
+			<cc><t>4505</t><v id="T">14</v></cc>
+			<cc><t>4511</t><v id="T">15</v></cc>
+			<cc><t>4515</t><v id="T">16</v></cc>
+			<cc><t>4521</t><v id="T">17</v></cc>
+			<cc><t>4531</t><v id="T">19</v></cc>
+			<cc><t>4535</t><v id="T">21</v></cc>
+			<cc><t>4541</t><v id="T">24</v></cc>
+			<cc><t>4545</t><v id="T">25</v></cc>
+			<cc><t>4551</t><v id="T">27</v></cc>
+			<cc><t>4555</t><v id="T">30</v></cc>
+			<cc><t>4561</t><v id="T">31</v></cc>
+			<cc><t>4565</t><v id="T">32</v></cc>
+			<cc><t>4571</t><v id="T">34</v></cc>
+			<cc><t>4575</t><v id="T">35</v></cc>
+			<cc><t>4581</t><v id="T">38</v></cc>
+			<cc><t>4585</t><v id="T">44</v></cc>
+			<cc><t>4591</t><v id="T">48</v></cc>
+			<cc><t>4595</t><v id="T">50</v></cc>
+			<cc><t>4601</t><v id="T">51</v></cc>
+			<cc><t>4605</t><v id="T">53</v></cc>
+			<cc><t>4611</t><v id="T">54</v></cc>
+			<cc><t>4615</t><v id="T">57</v></cc>
+			<cc><t>4621</t><v id="T">59</v></cc>
+			<cc><t>4625</t><v id="T">61</v></cc>
+			<cc><t>4631</t><v id="T">62</v></cc>
+			<cc><t>4635</t><v id="T">64</v></cc>
+			<cc><t>4645</t><v id="T">65</v></cc>
+			<cc><t>4651</t><v id="T">66</v></cc>
+			<cc><t>4655</t><v id="T">68</v></cc>
+			<cc><t>4661</t><v id="T">69</v></cc>
+			<cc><t>4665</t><v id="T">70</v></cc>
+			<cc><t>4671</t><v id="T">73</v></cc>
+			<cc><t>4675</t><v id="T">74</v></cc>
+			<cc><t>4685</t><v id="T">75</v></cc>
+			<cc><t>4695</t><v id="T">76</v></cc>
+			<cc><t>4705</t><v id="T">77</v></cc>
+			<cc><t>4711</t><v id="T">78</v></cc>
+			<cc><t>4741</t><v id="T">79</v></cc>
+			<cc><t>4761</t><v id="T">80</v></cc>
+			<cc><t>4791</t><v id="T">81</v></cc>
+			<cc><t>4801</t><v id="T">82</v></cc>
+			<cc><t>4835</t><v id="T">83</v></cc>
+			<cc><t>4841</t><v id="T">84</v></cc>
+			<cc><t>4861</t><v id="T">85</v></cc>
+			<cc><t>4865</t><v id="T">86</v></cc>
+			<cc><t>4901</t><v id="T">85</v></cc>
+			<cc><t>4905</t><v id="T">84</v></cc>
+			<cc><t>4911</t><v id="T">83</v></cc>
+			<cc><t>4915</t><v id="T">82</v></cc>
+			<cc><t>4921</t><v id="T">81</v></cc>
+			<cc><t>4925</t><v id="T">80</v></cc>
+			<cc><t>4935</t><v id="T">78</v></cc>
+			<cc><t>4945</t><v id="T">77</v></cc>
+			<cc><t>4951</t><v id="T">76</v></cc>
+			<cc><t>4955</t><v id="T">75</v></cc>
+			<cc><t>4961</t><v id="T">73</v></cc>
+			<cc><t>4965</t><v id="T">71</v></cc>
+			<cc><t>4971</t><v id="T">69</v></cc>
+			<cc><t>4975</t><v id="T">67</v></cc>
+			<cc><t>4981</t><v id="T">66</v></cc>
+			<cc><t>4985</t><v id="T">65</v></cc>
+			<cc><t>4991</t><v id="T">63</v></cc>
+			<cc><t>4995</t><v id="T">61</v></cc>
+			<cc><t>5001</t><v id="T">60</v></cc>
+			<cc><t>5005</t><v id="T">58</v></cc>
+			<cc><t>5011</t><v id="T">57</v></cc>
+			<cc><t>5041</t><v id="T">58</v></cc>
+			<cc><t>5045</t><v id="T">59</v></cc>
+			<cc><t>5051</t><v id="T">60</v></cc>
+			<cc><t>5055</t><v id="T">61</v></cc>
+			<cc><t>5061</t><v id="T">62</v></cc>
+			<cc><t>5065</t><v id="T">64</v></cc>
+			<cc><t>5160</t><v id="T">82</v></cc>
+			<cc><t>5166</t><v id="T">81</v></cc>
+			<cc><t>5170</t><v id="T">80</v></cc>
+			<cc><t>5176</t><v id="T">78</v></cc>
+			<cc><t>5190</t><v id="T">77</v></cc>
+			<cc><t>5196</t><v id="T">76</v></cc>
+			<cc><t>5206</t><v id="T">75</v></cc>
+			<cc><t>5220</t><v id="T">74</v></cc>
+			<cc><t>5226</t><v id="T">73</v></cc>
+			<cc><t>5236</t><v id="T">72</v></cc>
+			<cc><t>5240</t><v id="T">71</v></cc>
+			<cc><t>5250</t><v id="T">70</v></cc>
+			<cc><t>5256</t><v id="T">69</v></cc>
+			<cc><t>5266</t><v id="T">68</v></cc>
+			<cc><t>5270</t><v id="T">67</v></cc>
+			<cc><t>5276</t><v id="T">66</v></cc>
+			<cc><t>5280</t><v id="T">65</v></cc>
+			<cc><t>5290</t><v id="T">64</v></cc>
+			<cc><t>5296</t><v id="T">63</v></cc>
+			<cc><t>5300</t><v id="T">62</v></cc>
+			<cc><t>5306</t><v id="T">61</v></cc>
+			<cc><t>5316</t><v id="T">60</v></cc>
+			<cc><t>5320</t><v id="T">59</v></cc>
+			<cc><t>5326</t><v id="T">58</v></cc>
+			<cc><t>5330</t><v id="T">57</v></cc>
+			<cc><t>5336</t><v id="T">56</v></cc>
+			<cc><t>5340</t><v id="T">54</v></cc>
+			<cc><t>5346</t><v id="T">53</v></cc>
+			<cc><t>5350</t><v id="T">51</v></cc>
+			<cc><t>5356</t><v id="T">50</v></cc>
+			<cc><t>5360</t><v id="T">46</v></cc>
+			<cc><t>5365</t><v id="T">45</v></cc>
+			<note>
+				<t>960</t>
+				<dur>1200</dur>
+				<n>72</n>
+				<v>64</v>
+				<y><![CDATA[a]]></y>
+				<p><![CDATA[a]]></p>
+				<nStyle>
+					<v id="accent">50</v>
+					<v id="bendDep">0</v>
+					<v id="bendLen">0</v>
+					<v id="decay">50</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">66</v>
+					<v id="vibType">1</v>
+					<seq id="vibDep">
+						<cc><p>22282</p><v>64</v></cc>
+					</seq>
+					<seq id="vibRate">
+						<cc><p>22282</p><v>50</v></cc>
+					</seq>
+				</nStyle>
+			</note>
+			<plane>0</plane>
+		</vsPart>
+		<vsPart>
+			<t>61440</t>
+			<playTime>3840</playTime>
+			<name><![CDATA[GWL is TRACK]]></name>
+			<comment><![CDATA[New Musical Part]]></comment>
+			<sPlug>
+				<id><![CDATA[ACA9C502-A04B-42b5-B2EB-5CEA36D16FCE]]></id>
+				<name><![CDATA[VOCALOID2 Compatible Style]]></name>
+				<version><![CDATA[3.0.0.1]]></version>
+			</sPlug>
+			<pStyle>
+				<v id="accent">50</v>
+				<v id="bendDep">8</v>
+				<v id="bendLen">0</v>
+				<v id="decay">50</v>
+				<v id="fallPort">0</v>
+				<v id="opening">127</v>
+				<v id="risePort">0</v>
+			</pStyle>
+			<singer>
+				<t>0</t>
+				<bs>0</bs>
+				<pc>0</pc>
+			</singer>
+			<cc><t>0</t><v id="W">0</v></cc>
+			<cc><t>176</t><v id="W">81</v></cc>
+			<cc><t>180</t><v id="W">80</v></cc>
+			<cc><t>196</t><v id="W">79</v></cc>
+			<cc><t>200</t><v id="W">78</v></cc>
+			<cc><t>210</t><v id="W">77</v></cc>
+			<cc><t>216</t><v id="W">76</v></cc>
+			<cc><t>220</t><v id="W">75</v></cc>
+			<cc><t>230</t><v id="W">74</v></cc>
+			<cc><t>236</t><v id="W">73</v></cc>
+			<cc><t>240</t><v id="W">72</v></cc>
+			<cc><t>246</t><v id="W">71</v></cc>
+			<cc><t>260</t><v id="W">70</v></cc>
+			<cc><t>266</t><v id="W">69</v></cc>
+			<cc><t>276</t><v id="W">68</v></cc>
+			<cc><t>280</t><v id="W">67</v></cc>
+			<cc><t>290</t><v id="W">66</v></cc>
+			<cc><t>296</t><v id="W">65</v></cc>
+			<cc><t>316</t><v id="W">64</v></cc>
+			<cc><t>320</t><v id="W">63</v></cc>
+			<cc><t>326</t><v id="W">64</v></cc>
+			<cc><t>330</t><v id="W">62</v></cc>
+			<cc><t>336</t><v id="W">61</v></cc>
+			<cc><t>346</t><v id="W">60</v></cc>
+			<cc><t>350</t><v id="W">59</v></cc>
+			<cc><t>360</t><v id="W">58</v></cc>
+			<cc><t>366</t><v id="W">57</v></cc>
+			<cc><t>376</t><v id="W">56</v></cc>
+			<cc><t>380</t><v id="W">55</v></cc>
+			<cc><t>390</t><v id="W">54</v></cc>
+			<cc><t>396</t><v id="W">53</v></cc>
+			<cc><t>426</t><v id="W">52</v></cc>
+			<cc><t>430</t><v id="W">51</v></cc>
+			<cc><t>446</t><v id="W">50</v></cc>
+			<cc><t>476</t><v id="W">48</v></cc>
+			<cc><t>490</t><v id="W">47</v></cc>
+			<cc><t>496</t><v id="W">46</v></cc>
+			<cc><t>506</t><v id="W">45</v></cc>
+			<cc><t>510</t><v id="W">44</v></cc>
+			<cc><t>520</t><v id="W">43</v></cc>
+			<cc><t>526</t><v id="W">42</v></cc>
+			<cc><t>536</t><v id="W">41</v></cc>
+			<cc><t>540</t><v id="W">40</v></cc>
+			<cc><t>556</t><v id="W">39</v></cc>
+			<cc><t>560</t><v id="W">38</v></cc>
+			<cc><t>566</t><v id="W">37</v></cc>
+			<cc><t>570</t><v id="W">36</v></cc>
+			<cc><t>576</t><v id="W">35</v></cc>
+			<cc><t>580</t><v id="W">34</v></cc>
+			<cc><t>590</t><v id="W">33</v></cc>
+			<cc><t>600</t><v id="W">32</v></cc>
+			<cc><t>610</t><v id="W">30</v></cc>
+			<cc><t>616</t><v id="W">28</v></cc>
+			<cc><t>626</t><v id="W">26</v></cc>
+			<cc><t>636</t><v id="W">25</v></cc>
+			<cc><t>640</t><v id="W">24</v></cc>
+			<cc><t>646</t><v id="W">22</v></cc>
+			<cc><t>650</t><v id="W">21</v></cc>
+			<cc><t>656</t><v id="W">19</v></cc>
+			<cc><t>670</t><v id="W">18</v></cc>
+			<cc><t>680</t><v id="W">19</v></cc>
+			<cc><t>690</t><v id="W">21</v></cc>
+			<cc><t>700</t><v id="W">23</v></cc>
+			<cc><t>710</t><v id="W">25</v></cc>
+			<cc><t>720</t><v id="W">26</v></cc>
+			<cc><t>726</t><v id="W">27</v></cc>
+			<cc><t>730</t><v id="W">28</v></cc>
+			<cc><t>736</t><v id="W">29</v></cc>
+			<cc><t>740</t><v id="W">30</v></cc>
+			<cc><t>746</t><v id="W">31</v></cc>
+			<cc><t>750</t><v id="W">32</v></cc>
+			<cc><t>756</t><v id="W">33</v></cc>
+			<cc><t>760</t><v id="W">34</v></cc>
+			<cc><t>766</t><v id="W">35</v></cc>
+			<cc><t>770</t><v id="W">36</v></cc>
+			<cc><t>776</t><v id="W">37</v></cc>
+			<cc><t>780</t><v id="W">38</v></cc>
+			<cc><t>786</t><v id="W">39</v></cc>
+			<cc><t>790</t><v id="W">40</v></cc>
+			<cc><t>796</t><v id="W">41</v></cc>
+			<cc><t>800</t><v id="W">42</v></cc>
+			<cc><t>806</t><v id="W">43</v></cc>
+			<cc><t>810</t><v id="W">44</v></cc>
+			<cc><t>820</t><v id="W">45</v></cc>
+			<cc><t>826</t><v id="W">46</v></cc>
+			<cc><t>836</t><v id="W">47</v></cc>
+			<cc><t>840</t><v id="W">48</v></cc>
+			<cc><t>850</t><v id="W">49</v></cc>
+			<cc><t>856</t><v id="W">50</v></cc>
+			<cc><t>860</t><v id="W">51</v></cc>
+			<cc><t>866</t><v id="W">52</v></cc>
+			<cc><t>870</t><v id="W">53</v></cc>
+			<cc><t>876</t><v id="W">54</v></cc>
+			<cc><t>880</t><v id="W">55</v></cc>
+			<cc><t>886</t><v id="W">56</v></cc>
+			<cc><t>890</t><v id="W">57</v></cc>
+			<cc><t>896</t><v id="W">58</v></cc>
+			<cc><t>900</t><v id="W">59</v></cc>
+			<cc><t>906</t><v id="W">60</v></cc>
+			<cc><t>910</t><v id="W">61</v></cc>
+			<cc><t>920</t><v id="W">62</v></cc>
+			<cc><t>926</t><v id="W">64</v></cc>
+			<cc><t>930</t><v id="W">63</v></cc>
+			<cc><t>936</t><v id="W">65</v></cc>
+			<cc><t>940</t><v id="W">67</v></cc>
+			<cc><t>946</t><v id="W">68</v></cc>
+			<cc><t>950</t><v id="W">70</v></cc>
+			<cc><t>956</t><v id="W">72</v></cc>
+			<cc><t>960</t><v id="W">74</v></cc>
+			<cc><t>966</t><v id="W">75</v></cc>
+			<cc><t>970</t><v id="W">76</v></cc>
+			<cc><t>976</t><v id="W">78</v></cc>
+			<cc><t>980</t><v id="W">82</v></cc>
+			<cc><t>986</t><v id="W">84</v></cc>
+			<cc><t>990</t><v id="W">86</v></cc>
+			<cc><t>996</t><v id="W">87</v></cc>
+			<cc><t>1000</t><v id="W">89</v></cc>
+			<cc><t>1006</t><v id="W">90</v></cc>
+			<cc><t>1010</t><v id="W">91</v></cc>
+			<cc><t>1016</t><v id="W">92</v></cc>
+			<cc><t>1020</t><v id="W">93</v></cc>
+			<cc><t>1026</t><v id="W">94</v></cc>
+			<cc><t>1030</t><v id="W">95</v></cc>
+			<cc><t>1036</t><v id="W">97</v></cc>
+			<cc><t>1040</t><v id="W">99</v></cc>
+			<cc><t>1046</t><v id="W">101</v></cc>
+			<cc><t>1050</t><v id="W">102</v></cc>
+			<cc><t>1056</t><v id="W">104</v></cc>
+			<cc><t>1066</t><v id="W">105</v></cc>
+			<cc><t>1076</t><v id="W">107</v></cc>
+			<cc><t>1080</t><v id="W">108</v></cc>
+			<cc><t>1086</t><v id="W">109</v></cc>
+			<cc><t>1096</t><v id="W">110</v></cc>
+			<cc><t>1100</t><v id="W">111</v></cc>
+			<cc><t>1106</t><v id="W">112</v></cc>
+			<cc><t>1110</t><v id="W">113</v></cc>
+			<cc><t>1130</t><v id="W">115</v></cc>
+			<cc><t>1146</t><v id="W">116</v></cc>
+			<cc><t>1155</t><v id="W">115</v></cc>
+			<cc><t>1235</t><v id="W">114</v></cc>
+			<cc><t>1241</t><v id="W">113</v></cc>
+			<cc><t>1285</t><v id="W">112</v></cc>
+			<cc><t>1295</t><v id="W">111</v></cc>
+			<cc><t>1311</t><v id="W">110</v></cc>
+			<cc><t>1315</t><v id="W">109</v></cc>
+			<cc><t>1331</t><v id="W">108</v></cc>
+			<cc><t>1335</t><v id="W">107</v></cc>
+			<cc><t>1355</t><v id="W">106</v></cc>
+			<cc><t>1361</t><v id="W">105</v></cc>
+			<cc><t>1375</t><v id="W">104</v></cc>
+			<cc><t>1381</t><v id="W">103</v></cc>
+			<cc><t>1391</t><v id="W">102</v></cc>
+			<cc><t>1395</t><v id="W">101</v></cc>
+			<cc><t>1401</t><v id="W">100</v></cc>
+			<cc><t>1405</t><v id="W">98</v></cc>
+			<cc><t>1411</t><v id="W">97</v></cc>
+			<cc><t>1415</t><v id="W">96</v></cc>
+			<cc><t>1421</t><v id="W">95</v></cc>
+			<cc><t>1425</t><v id="W">94</v></cc>
+			<cc><t>1431</t><v id="W">92</v></cc>
+			<cc><t>1441</t><v id="W">89</v></cc>
+			<cc><t>1445</t><v id="W">88</v></cc>
+			<cc><t>1451</t><v id="W">86</v></cc>
+			<cc><t>1455</t><v id="W">84</v></cc>
+			<cc><t>1465</t><v id="W">82</v></cc>
+			<cc><t>1475</t><v id="W">80</v></cc>
+			<cc><t>1481</t><v id="W">79</v></cc>
+			<cc><t>1485</t><v id="W">78</v></cc>
+			<cc><t>1495</t><v id="W">71</v></cc>
+			<cc><t>1501</t><v id="W">67</v></cc>
+			<cc><t>1505</t><v id="W">64</v></cc>
+			<cc><t>1511</t><v id="W">63</v></cc>
+			<cc><t>1515</t><v id="W">62</v></cc>
+			<cc><t>1521</t><v id="W">60</v></cc>
+			<cc><t>1525</t><v id="W">58</v></cc>
+			<cc><t>1531</t><v id="W">57</v></cc>
+			<cc><t>1535</t><v id="W">56</v></cc>
+			<cc><t>1541</t><v id="W">55</v></cc>
+			<cc><t>1551</t><v id="W">51</v></cc>
+			<cc><t>1555</t><v id="W">50</v></cc>
+			<cc><t>1561</t><v id="W">49</v></cc>
+			<cc><t>1565</t><v id="W">48</v></cc>
+			<cc><t>1571</t><v id="W">47</v></cc>
+			<cc><t>1575</t><v id="W">44</v></cc>
+			<cc><t>1581</t><v id="W">43</v></cc>
+			<cc><t>1585</t><v id="W">42</v></cc>
+			<cc><t>1595</t><v id="W">41</v></cc>
+			<cc><t>1601</t><v id="W">40</v></cc>
+			<cc><t>1611</t><v id="W">39</v></cc>
+			<cc><t>1615</t><v id="W">38</v></cc>
+			<cc><t>1621</t><v id="W">36</v></cc>
+			<cc><t>1625</t><v id="W">35</v></cc>
+			<cc><t>1631</t><v id="W">34</v></cc>
+			<cc><t>1635</t><v id="W">33</v></cc>
+			<cc><t>1641</t><v id="W">32</v></cc>
+			<cc><t>1655</t><v id="W">31</v></cc>
+			<cc><t>1661</t><v id="W">30</v></cc>
+			<cc><t>1671</t><v id="W">29</v></cc>
+			<cc><t>1675</t><v id="W">28</v></cc>
+			<cc><t>1685</t><v id="W">26</v></cc>
+			<cc><t>1695</t><v id="W">25</v></cc>
+			<cc><t>1701</t><v id="W">24</v></cc>
+			<cc><t>1705</t><v id="W">23</v></cc>
+			<cc><t>1715</t><v id="W">22</v></cc>
+			<cc><t>1721</t><v id="W">21</v></cc>
+			<cc><t>1731</t><v id="W">20</v></cc>
+			<cc><t>1735</t><v id="W">19</v></cc>
+			<cc><t>1745</t><v id="W">18</v></cc>
+			<cc><t>1751</t><v id="W">17</v></cc>
+			<cc><t>1761</t><v id="W">16</v></cc>
+			<cc><t>1765</t><v id="W">15</v></cc>
+			<cc><t>1775</t><v id="W">14</v></cc>
+			<cc><t>1781</t><v id="W">13</v></cc>
+			<cc><t>1785</t><v id="W">12</v></cc>
+			<cc><t>1791</t><v id="W">11</v></cc>
+			<cc><t>1801</t><v id="W">10</v></cc>
+			<cc><t>1805</t><v id="W">9</v></cc>
+			<cc><t>1815</t><v id="W">7</v></cc>
+			<cc><t>1821</t><v id="W">6</v></cc>
+			<cc><t>1831</t><v id="W">5</v></cc>
+			<cc><t>1835</t><v id="W">4</v></cc>
+			<cc><t>1841</t><v id="W">3</v></cc>
+			<cc><t>1851</t><v id="W">2</v></cc>
+			<cc><t>1855</t><v id="W">1</v></cc>
+			<cc><t>1865</t><v id="W">0</v></cc>
+			<cc><t>2141</t><v id="W">2</v></cc>
+			<cc><t>2145</t><v id="W">4</v></cc>
+			<cc><t>2151</t><v id="W">23</v></cc>
+			<cc><t>2155</t><v id="W">26</v></cc>
+			<cc><t>2161</t><v id="W">30</v></cc>
+			<cc><t>2165</t><v id="W">38</v></cc>
+			<cc><t>2171</t><v id="W">54</v></cc>
+			<cc><t>2175</t><v id="W">78</v></cc>
+			<cc><t>2181</t><v id="W">83</v></cc>
+			<cc><t>2185</t><v id="W">90</v></cc>
+			<cc><t>2191</t><v id="W">98</v></cc>
+			<cc><t>2195</t><v id="W">100</v></cc>
+			<cc><t>2201</t><v id="W">101</v></cc>
+			<cc><t>2205</t><v id="W">107</v></cc>
+			<cc><t>2211</t><v id="W">108</v></cc>
+			<cc><t>2215</t><v id="W">110</v></cc>
+			<cc><t>2221</t><v id="W">112</v></cc>
+			<cc><t>2225</t><v id="W">113</v></cc>
+			<cc><t>2231</t><v id="W">115</v></cc>
+			<cc><t>2235</t><v id="W">116</v></cc>
+			<cc><t>2241</t><v id="W">118</v></cc>
+			<cc><t>2245</t><v id="W">119</v></cc>
+			<cc><t>2251</t><v id="W">121</v></cc>
+			<cc><t>2255</t><v id="W">123</v></cc>
+			<cc><t>2261</t><v id="W">125</v></cc>
+			<cc><t>2265</t><v id="W">127</v></cc>
+			<cc><t>2560</t><v id="W">0</v></cc>
+			<cc><t>4826</t><v id="W">1</v></cc>
+			<cc><t>4846</t><v id="W">2</v></cc>
+			<cc><t>4856</t><v id="W">3</v></cc>
+			<cc><t>4876</t><v id="W">4</v></cc>
+			<cc><t>4886</t><v id="W">5</v></cc>
+			<cc><t>4900</t><v id="W">6</v></cc>
+			<cc><t>4906</t><v id="W">7</v></cc>
+			<cc><t>4916</t><v id="W">9</v></cc>
+			<cc><t>4920</t><v id="W">11</v></cc>
+			<cc><t>4925</t><v id="W">12</v></cc>
+			<note>
+				<t>240</t>
+				<dur>960</dur>
+				<n>75</n>
+				<v>64</v>
+				<y><![CDATA[a]]></y>
+				<p><![CDATA[a]]></p>
+				<nStyle>
+					<v id="accent">50</v>
+					<v id="bendDep">0</v>
+					<v id="bendLen">0</v>
+					<v id="decay">50</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">66</v>
+					<v id="vibType">1</v>
+					<seq id="vibDep">
+						<cc><p>22323</p><v>64</v></cc>
+					</seq>
+					<seq id="vibRate">
+						<cc><p>22323</p><v>50</v></cc>
+					</seq>
+				</nStyle>
+			</note>
+			<plane>0</plane>
+		</vsPart>
+		<vsPart>
+			<t>68160</t>
+			<playTime>3840</playTime>
+			<name><![CDATA[PBS is TRACK]]></name>
+			<comment><![CDATA[New Musical Part]]></comment>
+			<sPlug>
+				<id><![CDATA[ACA9C502-A04B-42b5-B2EB-5CEA36D16FCE]]></id>
+				<name><![CDATA[VOCALOID2 Compatible Style]]></name>
+				<version><![CDATA[3.0.0.1]]></version>
+			</sPlug>
+			<pStyle>
+				<v id="accent">50</v>
+				<v id="bendDep">8</v>
+				<v id="bendLen">0</v>
+				<v id="decay">50</v>
+				<v id="fallPort">0</v>
+				<v id="opening">127</v>
+				<v id="risePort">0</v>
+			</pStyle>
+			<singer>
+				<t>0</t>
+				<bs>0</bs>
+				<pc>0</pc>
+			</singer>
+			<cc><t>315</t><v id="W">85</v></cc>
+			<cc><t>321</t><v id="W">89</v></cc>
+			<cc><t>325</t><v id="W">90</v></cc>
+			<cc><t>331</t><v id="W">92</v></cc>
+			<cc><t>335</t><v id="W">93</v></cc>
+			<cc><t>341</t><v id="W">94</v></cc>
+			<cc><t>345</t><v id="W">96</v></cc>
+			<cc><t>351</t><v id="W">98</v></cc>
+			<cc><t>361</t><v id="W">99</v></cc>
+			<cc><t>365</t><v id="W">100</v></cc>
+			<cc><t>375</t><v id="W">101</v></cc>
+			<cc><t>385</t><v id="W">103</v></cc>
+			<cc><t>395</t><v id="W">104</v></cc>
+			<cc><t>401</t><v id="W">105</v></cc>
+			<cc><t>405</t><v id="W">106</v></cc>
+			<cc><t>415</t><v id="W">107</v></cc>
+			<cc><t>431</t><v id="W">108</v></cc>
+			<cc><t>441</t><v id="W">109</v></cc>
+			<cc><t>455</t><v id="W">110</v></cc>
+			<cc><t>465</t><v id="W">111</v></cc>
+			<cc><t>481</t><v id="W">112</v></cc>
+			<cc><t>485</t><v id="W">113</v></cc>
+			<cc><t>501</t><v id="W">114</v></cc>
+			<cc><t>515</t><v id="W">115</v></cc>
+			<cc><t>535</t><v id="W">116</v></cc>
+			<cc><t>585</t><v id="W">117</v></cc>
+			<cc><t>781</t><v id="W">116</v></cc>
+			<cc><t>785</t><v id="W">115</v></cc>
+			<cc><t>801</t><v id="W">114</v></cc>
+			<cc><t>805</t><v id="W">113</v></cc>
+			<cc><t>815</t><v id="W">112</v></cc>
+			<cc><t>831</t><v id="W">111</v></cc>
+			<cc><t>841</t><v id="W">110</v></cc>
+			<cc><t>845</t><v id="W">109</v></cc>
+			<cc><t>861</t><v id="W">108</v></cc>
+			<cc><t>865</t><v id="W">107</v></cc>
+			<cc><t>885</t><v id="W">106</v></cc>
+			<cc><t>891</t><v id="W">105</v></cc>
+			<cc><t>905</t><v id="W">104</v></cc>
+			<cc><t>911</t><v id="W">103</v></cc>
+			<cc><t>915</t><v id="W">102</v></cc>
+			<cc><t>921</t><v id="W">101</v></cc>
+			<cc><t>925</t><v id="W">100</v></cc>
+			<cc><t>931</t><v id="W">99</v></cc>
+			<cc><t>935</t><v id="W">98</v></cc>
+			<cc><t>941</t><v id="W">96</v></cc>
+			<cc><t>945</t><v id="W">95</v></cc>
+			<cc><t>951</t><v id="W">93</v></cc>
+			<cc><t>955</t><v id="W">91</v></cc>
+			<cc><t>961</t><v id="W">90</v></cc>
+			<cc><t>971</t><v id="W">89</v></cc>
+			<cc><t>975</t><v id="W">88</v></cc>
+			<cc><t>985</t><v id="W">86</v></cc>
+			<cc><t>991</t><v id="W">85</v></cc>
+			<cc><t>995</t><v id="W">84</v></cc>
+			<cc><t>1001</t><v id="W">83</v></cc>
+			<cc><t>1005</t><v id="W">82</v></cc>
+			<cc><t>1015</t><v id="W">80</v></cc>
+			<cc><t>1025</t><v id="W">79</v></cc>
+			<cc><t>1031</t><v id="W">78</v></cc>
+			<cc><t>1041</t><v id="W">77</v></cc>
+			<cc><t>1045</t><v id="W">76</v></cc>
+			<cc><t>1055</t><v id="W">75</v></cc>
+			<cc><t>1065</t><v id="W">74</v></cc>
+			<cc><t>1071</t><v id="W">73</v></cc>
+			<cc><t>1081</t><v id="W">71</v></cc>
+			<cc><t>1091</t><v id="W">69</v></cc>
+			<cc><t>1101</t><v id="W">68</v></cc>
+			<cc><t>1105</t><v id="W">67</v></cc>
+			<cc><t>1111</t><v id="W">66</v></cc>
+			<cc><t>1115</t><v id="W">65</v></cc>
+			<cc><t>1125</t><v id="W">64</v></cc>
+			<cc><t>1131</t><v id="W">63</v></cc>
+			<cc><t>1135</t><v id="W">64</v></cc>
+			<cc><t>1141</t><v id="W">62</v></cc>
+			<cc><t>1145</t><v id="W">61</v></cc>
+			<cc><t>1155</t><v id="W">60</v></cc>
+			<cc><t>1161</t><v id="W">59</v></cc>
+			<cc><t>1171</t><v id="W">58</v></cc>
+			<cc><t>1175</t><v id="W">57</v></cc>
+			<cc><t>1185</t><v id="W">56</v></cc>
+			<cc><t>1191</t><v id="W">55</v></cc>
+			<cc><t>1201</t><v id="W">54</v></cc>
+			<cc><t>1205</t><v id="W">53</v></cc>
+			<cc><t>1215</t><v id="W">52</v></cc>
+			<cc><t>1221</t><v id="W">51</v></cc>
+			<cc><t>1261</t><v id="W">50</v></cc>
+			<cc><t>1281</t><v id="W">49</v></cc>
+			<cc><t>1295</t><v id="W">48</v></cc>
+			<cc><t>1321</t><v id="W">47</v></cc>
+			<cc><t>1361</t><v id="W">48</v></cc>
+			<cc><t>1385</t><v id="W">49</v></cc>
+			<cc><t>1395</t><v id="W">50</v></cc>
+			<cc><t>1431</t><v id="W">51</v></cc>
+			<cc><t>1445</t><v id="W">52</v></cc>
+			<cc><t>1451</t><v id="W">53</v></cc>
+			<cc><t>1471</t><v id="W">54</v></cc>
+			<cc><t>1481</t><v id="W">55</v></cc>
+			<cc><t>1501</t><v id="W">56</v></cc>
+			<cc><t>1511</t><v id="W">57</v></cc>
+			<cc><t>1531</t><v id="W">58</v></cc>
+			<cc><t>1535</t><v id="W">59</v></cc>
+			<cc><t>1545</t><v id="W">60</v></cc>
+			<cc><t>1551</t><v id="W">61</v></cc>
+			<cc><t>1565</t><v id="W">62</v></cc>
+			<cc><t>1571</t><v id="W">64</v></cc>
+			<cc><t>1575</t><v id="W">63</v></cc>
+			<cc><t>1581</t><v id="W">64</v></cc>
+			<cc><t>1591</t><v id="W">65</v></cc>
+			<cc><t>1601</t><v id="W">66</v></cc>
+			<cc><t>1605</t><v id="W">67</v></cc>
+			<cc><t>1615</t><v id="W">68</v></cc>
+			<cc><t>1621</t><v id="W">69</v></cc>
+			<cc><t>1625</t><v id="W">70</v></cc>
+			<cc><t>1631</t><v id="W">71</v></cc>
+			<cc><t>1635</t><v id="W">72</v></cc>
+			<cc><t>1641</t><v id="W">74</v></cc>
+			<cc><t>1645</t><v id="W">76</v></cc>
+			<cc><t>1651</t><v id="W">77</v></cc>
+			<cc><t>1655</t><v id="W">78</v></cc>
+			<cc><t>1661</t><v id="W">80</v></cc>
+			<cc><t>1671</t><v id="W">82</v></cc>
+			<cc><t>1675</t><v id="W">83</v></cc>
+			<cc><t>1681</t><v id="W">84</v></cc>
+			<cc><t>1685</t><v id="W">85</v></cc>
+			<cc><t>1691</t><v id="W">86</v></cc>
+			<cc><t>1695</t><v id="W">87</v></cc>
+			<cc><t>1701</t><v id="W">88</v></cc>
+			<cc><t>1705</t><v id="W">90</v></cc>
+			<cc><t>1711</t><v id="W">91</v></cc>
+			<cc><t>1715</t><v id="W">92</v></cc>
+			<cc><t>1725</t><v id="W">93</v></cc>
+			<cc><t>1731</t><v id="W">94</v></cc>
+			<cc><t>1735</t><v id="W">95</v></cc>
+			<cc><t>1741</t><v id="W">96</v></cc>
+			<cc><t>1751</t><v id="W">97</v></cc>
+			<cc><t>1755</t><v id="W">98</v></cc>
+			<cc><t>1765</t><v id="W">99</v></cc>
+			<cc><t>1771</t><v id="W">100</v></cc>
+			<cc><t>1785</t><v id="W">101</v></cc>
+			<cc><t>1795</t><v id="W">102</v></cc>
+			<cc><t>1801</t><v id="W">103</v></cc>
+			<cc><t>1815</t><v id="W">104</v></cc>
+			<cc><t>1821</t><v id="W">105</v></cc>
+			<cc><t>1825</t><v id="W">107</v></cc>
+			<cc><t>1841</t><v id="W">108</v></cc>
+			<cc><t>1851</t><v id="W">109</v></cc>
+			<cc><t>1861</t><v id="W">110</v></cc>
+			<cc><t>1871</t><v id="W">111</v></cc>
+			<cc><t>1901</t><v id="W">112</v></cc>
+			<cc><t>1921</t><v id="W">113</v></cc>
+			<cc><t>2075</t><v id="W">112</v></cc>
+			<cc><t>2085</t><v id="W">111</v></cc>
+			<cc><t>2105</t><v id="W">110</v></cc>
+			<cc><t>2115</t><v id="W">109</v></cc>
+			<cc><t>2131</t><v id="W">108</v></cc>
+			<cc><t>2145</t><v id="W">107</v></cc>
+			<cc><t>2171</t><v id="W">106</v></cc>
+			<cc><t>2181</t><v id="W">105</v></cc>
+			<cc><t>2195</t><v id="W">104</v></cc>
+			<cc><t>2201</t><v id="W">103</v></cc>
+			<cc><t>2215</t><v id="W">102</v></cc>
+			<cc><t>2225</t><v id="W">101</v></cc>
+			<cc><t>2241</t><v id="W">100</v></cc>
+			<cc><t>2255</t><v id="W">99</v></cc>
+			<cc><t>2261</t><v id="W">98</v></cc>
+			<cc><t>2271</t><v id="W">96</v></cc>
+			<cc><t>2275</t><v id="W">95</v></cc>
+			<cc><t>2281</t><v id="W">94</v></cc>
+			<cc><t>2285</t><v id="W">92</v></cc>
+			<cc><t>2291</t><v id="W">91</v></cc>
+			<cc><t>2295</t><v id="W">89</v></cc>
+			<cc><t>2301</t><v id="W">88</v></cc>
+			<cc><t>2305</t><v id="W">86</v></cc>
+			<cc><t>2311</t><v id="W">85</v></cc>
+			<cc><t>2315</t><v id="W">84</v></cc>
+			<cc><t>2321</t><v id="W">82</v></cc>
+			<cc><t>2325</t><v id="W">81</v></cc>
+			<cc><t>2331</t><v id="W">79</v></cc>
+			<cc><t>2335</t><v id="W">78</v></cc>
+			<cc><t>2341</t><v id="W">76</v></cc>
+			<cc><t>2345</t><v id="W">75</v></cc>
+			<cc><t>2351</t><v id="W">73</v></cc>
+			<cc><t>2355</t><v id="W">71</v></cc>
+			<cc><t>2361</t><v id="W">69</v></cc>
+			<cc><t>2365</t><v id="W">67</v></cc>
+			<cc><t>2371</t><v id="W">64</v></cc>
+			<cc><t>2375</t><v id="W">63</v></cc>
+			<cc><t>2381</t><v id="W">62</v></cc>
+			<cc><t>2385</t><v id="W">61</v></cc>
+			<cc><t>2391</t><v id="W">59</v></cc>
+			<cc><t>2395</t><v id="W">58</v></cc>
+			<cc><t>2401</t><v id="W">57</v></cc>
+			<cc><t>2411</t><v id="W">56</v></cc>
+			<cc><t>2415</t><v id="W">55</v></cc>
+			<cc><t>2435</t><v id="W">54</v></cc>
+			<cc><t>2445</t><v id="W">53</v></cc>
+			<cc><t>2465</t><v id="W">52</v></cc>
+			<cc><t>2475</t><v id="W">51</v></cc>
+			<cc><t>2505</t><v id="W">50</v></cc>
+			<cc><t>2725</t><v id="W">51</v></cc>
+			<cc><t>2745</t><v id="W">52</v></cc>
+			<cc><t>2751</t><v id="W">53</v></cc>
+			<cc><t>2775</t><v id="W">54</v></cc>
+			<cc><t>2785</t><v id="W">55</v></cc>
+			<cc><t>2811</t><v id="W">56</v></cc>
+			<cc><t>2821</t><v id="W">57</v></cc>
+			<cc><t>2845</t><v id="W">58</v></cc>
+			<cc><t>2855</t><v id="W">59</v></cc>
+			<cc><t>2881</t><v id="W">60</v></cc>
+			<cc><t>2891</t><v id="W">61</v></cc>
+			<cc><t>2905</t><v id="W">62</v></cc>
+			<cc><t>2911</t><v id="W">64</v></cc>
+			<cc><t>2915</t><v id="W">63</v></cc>
+			<cc><t>2925</t><v id="W">64</v></cc>
+			<cc><t>2931</t><v id="W">65</v></cc>
+			<cc><t>2941</t><v id="W">66</v></cc>
+			<cc><t>2951</t><v id="W">67</v></cc>
+			<cc><t>2961</t><v id="W">68</v></cc>
+			<cc><t>2965</t><v id="W">69</v></cc>
+			<cc><t>2981</t><v id="W">70</v></cc>
+			<cc><t>2985</t><v id="W">71</v></cc>
+			<cc><t>2995</t><v id="W">72</v></cc>
+			<cc><t>3001</t><v id="W">73</v></cc>
+			<cc><t>3025</t><v id="W">74</v></cc>
+			<cc><t>3035</t><v id="W">75</v></cc>
+			<cc><t>3055</t><v id="W">76</v></cc>
+			<cc><t>3071</t><v id="W">77</v></cc>
+			<cc><t>3075</t><v id="W">78</v></cc>
+			<cc><t>3091</t><v id="W">79</v></cc>
+			<cc><t>3095</t><v id="W">80</v></cc>
+			<cc><t>3111</t><v id="W">81</v></cc>
+			<cc><t>3121</t><v id="W">82</v></cc>
+			<cc><t>3135</t><v id="W">83</v></cc>
+			<cc><t>3151</t><v id="W">84</v></cc>
+			<cc><t>3171</t><v id="W">85</v></cc>
+			<cc><t>3181</t><v id="W">86</v></cc>
+			<cc><t>3211</t><v id="W">87</v></cc>
+			<cc><t>3220</t><v id="W">88</v></cc>
+			<cc><t>3236</t><v id="W">89</v></cc>
+			<cc><t>3240</t><v id="W">90</v></cc>
+			<cc><t>3320</t><v id="W">89</v></cc>
+			<cc><t>3336</t><v id="W">88</v></cc>
+			<cc><t>3366</t><v id="W">87</v></cc>
+			<cc><t>3390</t><v id="W">86</v></cc>
+			<cc><t>3436</t><v id="W">85</v></cc>
+			<cc><t>3440</t><v id="W">84</v></cc>
+			<cc><t>3446</t><v id="W">83</v></cc>
+			<cc><t>3456</t><v id="W">76</v></cc>
+			<cc><t>3460</t><v id="W">63</v></cc>
+			<cc><t>3466</t><v id="W">59</v></cc>
+			<cc><t>3470</t><v id="W">54</v></cc>
+			<cc><t>3476</t><v id="W">50</v></cc>
+			<cc><t>3480</t><v id="W">48</v></cc>
+			<cc><t>3486</t><v id="W">46</v></cc>
+			<cc><t>3490</t><v id="W">39</v></cc>
+			<cc><t>3496</t><v id="W">28</v></cc>
+			<cc><t>3500</t><v id="W">17</v></cc>
+			<cc><t>3506</t><v id="W">13</v></cc>
+			<cc><t>3510</t><v id="W">9</v></cc>
+			<cc><t>3516</t><v id="W">4</v></cc>
+			<cc><t>3520</t><v id="W">0</v></cc>
+			<note>
+				<t>480</t>
+				<dur>960</dur>
+				<n>71</n>
+				<v>64</v>
+				<y><![CDATA[a]]></y>
+				<p><![CDATA[a]]></p>
+				<nStyle>
+					<v id="accent">50</v>
+					<v id="bendDep">0</v>
+					<v id="bendLen">0</v>
+					<v id="decay">50</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">66</v>
+					<v id="vibType">1</v>
+					<seq id="vibDep">
+						<cc><p>22323</p><v>64</v></cc>
+					</seq>
+					<seq id="vibRate">
+						<cc><p>22323</p><v>50</v></cc>
+					</seq>
+				</nStyle>
+			</note>
+			<note>
+				<t>1680</t>
+				<dur>960</dur>
+				<n>77</n>
+				<v>64</v>
+				<y><![CDATA[a]]></y>
+				<p><![CDATA[a]]></p>
+				<nStyle>
+					<v id="accent">50</v>
+					<v id="bendDep">0</v>
+					<v id="bendLen">0</v>
+					<v id="decay">50</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">66</v>
+					<v id="vibType">1</v>
+					<seq id="vibDep">
+						<cc><p>22323</p><v>64</v></cc>
+					</seq>
+					<seq id="vibRate">
+						<cc><p>22323</p><v>50</v></cc>
+					</seq>
+				</nStyle>
+			</note>
+			<plane>0</plane>
+		</vsPart>
+	</vsTrack>
+	<monoTrack>
+	</monoTrack>
+	<stTrack>
+	</stTrack>
+	<aux>
+		<id><![CDATA[AUX_VST_HOST_CHUNK_INFO]]></id>
+		<content><![CDATA[VlNDSwAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></content>
+	</aux>
+</vsq4>
