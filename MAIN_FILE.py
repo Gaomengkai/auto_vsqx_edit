@@ -1,26 +1,27 @@
+# -*- coding:utf-8 -*-
 import xml.etree.ElementTree as ET
+import pinyin2xsampa
+#pinyin2xsampa from GitHub: https://github.com/m13253/pinyin2xsampa.git
+#Following GPLv3
+'''
+Copyright (C) 2018  Gao Mengkai
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+'''
 debug=True
 namespace="{http://www.yamaha.co.jp/vocaloid/schema/vsq4/}"
-'''
-def CDATA(text=None):
-    element = ET.Element('![CDATA[')
-    element.text = text
-    return element
 
-ET._original_serialize_xml = ET._serialize_xml
-
-def _serialize_xml(write, elem, qnames, namespaces,short_empty_elements, **kwargs):
-
-    if elem.tag == '![CDATA[':
-        write("\n<{}{}]]>\n".format(elem.tag, elem.text))
-        #write("<%s%s]]>" % (elem.tag, elem.text))
-        if elem.tail:
-            write(ET._escape_cdata(elem.tail))
-    else:
-        return ET._original_serialize_xml(write, elem, qnames, namespaces,short_empty_elements, **kwargs)
-
-ET._serialize_xml = ET._serialize['xml'] = _serialize_xml
-'''
 def cdata_a_string(string):
     temp="@12@{}@13@".format(string)
     return temp
@@ -186,7 +187,26 @@ class vsqx_option():
             note.text=cdata_a_string(p)
             print("{}:is added as {}".format(i-begin,p))
         return True
-
+    def change_note(self,note,t=None,dur=None,n=None,v=None,y=None,p=None,nStyles=None):
+        if t is not None:
+            note.find('./%st'%namespace).text=str(t)
+        if dur is not None:
+            note.find('./%sdur'%namespace).text=str(dur)
+        if n is not None:
+            note.find('./%sn'%namespace).text=str(n)
+        if v is not None:
+            note.find('./%sv'%namespace).text=str(v)
+        if y is not None:
+            note.find('./%sy'%namespace).text=str(y)
+        if p is not None:
+            note.find('./%sp'%namespace).text=str(p)
+        if nStyles is not None and len(nStyles) is 9:
+            ns=note.find('./%snStyles'%namespace)
+            for i in range(nStyles):
+                ns[i].text=str(nStyles[i])
+        return note
+        
+        
 def preprocess(data):
     data=data.replace('<![CDATA[','@12@')
     data=data.replace(']]>','@13@')
@@ -221,6 +241,7 @@ def interface(path=None):
         print("2. Phonetic inception")
         print("3. Append note  //TESTING")
         print("4. Refresh v tree")
+        print("5. Edit a note")
         print("9. Save the vsqx file")
         print("0. Quit")
         if isFirst:
@@ -246,7 +267,11 @@ def interface(path=None):
             pass
         if choice is '2':
             interface_2(v,part)
-        
+        if choice is '5':
+            pass
+            #interface_5(v,part)
+
+
 def interface_2(v,selected_part):
     print()
     begin=int(input("Enter the loc of 1st phonetic:"))
@@ -265,7 +290,7 @@ def interface_2(v,selected_part):
             p=serialize_phonetic_customize()
         if choice is '0':
             return
-        v.incept_phonetic(selected_part,p)
+        v.incept_phonetic(selected_part,p,begin=begin)
 def serialize_phonetic_with_enter():
     print()
     print("Enter the phonetic, and end up your input with 0")
@@ -302,7 +327,6 @@ def interface_9(v,original_path):
     return True
 def mian():
     if debug:
-        path="Untitled2 - 副本o.xml"
         path="51.vsqx"
     else:
         path=input('Please input the path of original vsqx file')
@@ -311,7 +335,7 @@ def mian():
     dat=preprocess(dat)
     #end deal with CDATA
     v=vsqx_option(data=dat,path=None)
-    part=v.start_doing()
+    #part=v.start_doing()
     #v.append_note(element_path=part,location=2880,lrc='ra',phonetic='4 a')
     #v.incept_phonetic(part,["4 a","4 a"])
     dat=v.save_vsqx().decode()
