@@ -22,44 +22,82 @@ import sys
 if sys.version_info < (3,):
     sys.stderr.write('This script requires Python 3 or higher version.\n')
     sys.exit(1)
+#addition code:
+_VOCALOID_VERSION = 4
 
+if _VOCALOID_VERSION is 3:
+    wholereplacetable = (
+        ('bo', 'buo'), ('po', 'puo'), ('mo', 'muo'), ('fo', 'fuo'),
+        ('zhi', 'zhirh'), ('chi', 'chirh'), ('shi', 'shirh'), ('ri', 'rirh'),
+        ('zi', 'zih'), ('ci', 'cih'), ('si', 'sih')
+    )
+    localreplacetable = (
+        ('yi', 'i'), ('wu', 'u'), ('yu', 'v'), ('ju', 'jv'), ('qu', 'qv'),
+        ('xu', 'xv'), ('y', 'i'), ('w', 'u'), ('\u00ea', 'eh'), ('\u00fc', 'v'),
+        ('iu', 'iou'), ('ui', 'uei'), ('un', 'uen'), ('um', 'uem')
+    )
+    initialtable = (
+        ('b', 'p'), ('p', 'p_h'), ('m', 'm'), ('f', 'f'), ('d', 't'), ('t', 't_h'),
+        ('ng', 'N'), ('n', 'n'), ('l', 'l'), ('g', 'k'), ('k', 'k_h'), ('h', 'x'),
+        ('j', 'ts\\'), ('q', 'ts\\_h'), ('x', 's\\'), ('zh', 'ts`'),
+        ('ch', 'ts`_h'), ('sh', 's`'), ('r', 'z`'), ('z', 'ts'), ('c', 'ts_h'),
+        ('s', 's')
+    )
+    finaltable = (
+        ('iamg', 'iAm'), ('iang', 'iAN'), ('iomg', 'iUm'), ('iong', 'iUN'),
+        ('uamg', 'uAm'), ('uang', 'uAN'), ('uemg', 'u7m'), ('ueng', 'u7N'),
+        ('amg', 'Am'), ('ang', 'AN'), ('emg', '7m'), ('eng', '7N'), ('iam', 'iEm'),
+        ('ian', 'iE_n'), ('iao', 'iaU'), ('img', 'im'), ('ing', 'iMN'),
+        ('iou', 'i7U'), ('ong', 'UN'), ('uai', 'uaI'), ('uam', 'uam'),
+        ('uan', 'ua_n'), ('uei', 'ueI'), ('uem', 'u@m'), ('uen', 'u@_n'),
+        ('vam', 'yEm'), ('van', 'yE_n'), ('ai', 'aI'), ('am', 'am'), ('an', 'a_n'),
+        ('ao', 'AU'), ('ei', 'eI'), ('em', '@m'), ('en', '@_n'), ('ia', 'ia'),
+        ('ie', 'iE'), ('im', 'im'), ('in', 'i_n'), ('io', 'io'), ('ou', '7U'),
+        ('ua', 'ua'), ('uo', 'uO'), ('ve', 'yE'), ('vm', 'yim'), ('vn', 'yi_n'),
+        ('m', 'm'), ('ng', 'N'), ('n', 'n'), ('a', 'a'), ('o', 'o'), ('eh', 'E'),
+        ('e', 'MV'), ('ih', 'M'), ('irh', '1'), ('i', 'i'), ('u', 'u'), ('v', 'y')
+    )
 
-wholereplacetable = (
-    ('bo', 'buo'), ('po', 'puo'), ('mo', 'muo'), ('fo', 'fuo'),
-    ('zhi', 'zhirh'), ('chi', 'chirh'), ('shi', 'shirh'), ('ri', 'rirh'),
-    ('zi', 'zih'), ('ci', 'cih'), ('si', 'sih')
-)
-localreplacetable = (
-    ('yi', 'i'), ('wu', 'u'), ('yu', 'v'), ('ju', 'jv'), ('qu', 'qv'),
-    ('xu', 'xv'), ('y', 'i'), ('w', 'u'), ('\u00ea', 'eh'), ('\u00fc', 'v'),
-    ('iu', 'iou'), ('ui', 'uei'), ('un', 'uen'), ('um', 'uem')
-)
-initialtable = (
-    ('b', 'p'), ('p', 'p_h'), ('m', 'm'), ('f', 'f'), ('d', 't'), ('t', 't_h'),
-    ('ng', 'N'), ('n', 'n'), ('l', 'l'), ('g', 'k'), ('k', 'k_h'), ('h', 'x'),
-    ('j', 'ts\\'), ('q', 'ts\\_h'), ('x', 's\\'), ('zh', 'ts`'),
-    ('ch', 'ts`_h'), ('sh', 's`'), ('r', 'z`'), ('z', 'ts'), ('c', 'ts_h'),
-    ('s', 's')
-)
-finaltable = (
-    ('iamg', 'iAm'), ('iang', 'iAN'), ('iomg', 'iUm'), ('iong', 'iUN'),
-    ('uamg', 'uAm'), ('uang', 'uAN'), ('uemg', 'u7m'), ('ueng', 'u7N'),
-    ('amg', 'Am'), ('ang', 'AN'), ('emg', '7m'), ('eng', '7N'), ('iam', 'iEm'),
-    ('ian', 'iE_n'), ('iao', 'iaU'), ('img', 'im'), ('ing', 'iMN'),
-    ('iou', 'i7U'), ('ong', 'UN'), ('uai', 'uaI'), ('uam', 'uam'),
-    ('uan', 'ua_n'), ('uei', 'ueI'), ('uem', 'u@m'), ('uen', 'u@_n'),
-    ('vam', 'yEm'), ('van', 'yE_n'), ('ai', 'aI'), ('am', 'am'), ('an', 'a_n'),
-    ('ao', 'AU'), ('ei', 'eI'), ('em', '@m'), ('en', '@_n'), ('ia', 'ia'),
-    ('ie', 'iE'), ('im', 'im'), ('in', 'i_n'), ('io', 'io'), ('ou', '7U'),
-    ('ua', 'ua'), ('uo', 'uO'), ('ve', 'yE'), ('vm', 'yim'), ('vn', 'yi_n'),
-    ('m', 'm'), ('ng', 'N'), ('n', 'n'), ('a', 'a'), ('o', 'o'), ('eh', 'E'),
-    ('e', 'MV'), ('ih', 'M'), ('irh', '1'), ('i', 'i'), ('u', 'u'), ('v', 'y')
-)
-
+if _VOCALOID_VERSION is 4:
+    wholereplacetable = (
+        ('bo', 'buo'), ('po', 'puo'), ('mo', 'muo'), ('fo', 'fuo'),
+        ('zhi', 'zhirh'), ('chi', 'chirh'), ('shi', 'shirh'), ('ri', 'rirh'),
+        ('zi', 'zih'), ('ci', 'cih'), ('si', 'sih')
+    )
+    localreplacetable = (
+        ('yi', 'i'), ('wu', 'u'), ('yu', 'v'), ('ju', 'jv'), ('qu', 'qv'),
+        ('xu', 'xv'), ('y', 'i'), ('w', 'u'), ('\u00ea', 'eh'), ('\u00fc', 'v'),
+        ('iu', 'iou'), ('ui', 'uei'), ('un', 'uen'), ('um', 'uem')
+    )
+    initialtable = (
+        ('b', 'p'), ('p', 'p_h'), ('m', 'm'), ('f', 'f'), ('d', 't'), ('t', 't_h'),
+        ('ng', 'N'), ('n', 'n'), ('l', 'l'), ('g', 'k'), ('k', 'k_h'), ('h', 'x'),
+        ('j', 'ts\\'), ('q', 'ts\\_h'), ('x', 's\\'), ('zh', 'ts`'),
+        ('ch', 'ts`_h'), ('sh', 's`'), ('r', 'z`'), ('z', 'ts'), ('c', 'ts_h'),
+        ('s', 's')
+    )
+    finaltable = (
+        ('iamg', 'iAm'), ('iang', 'iAN'), ('iomg', 'iUm'), ('iong', 'iUN'),
+        ('uamg', 'uAm'), ('uang', 'uAN'), ('uemg', 'u7m'), ('ueng', 'u@N'),
+        ('amg', 'Am'), ('ang', 'AN'), ('emg', '7m'), ('eng', '@N'), ('iam', 'iEm'),
+        ('ian', 'iE_n'), ('iao', 'iAU'), ('img', 'im'), ('ing', 'iN'),
+        ('iou', 'i@U'), ('ong', 'UN'), ('uai', 'uaI'), ('uam', 'uam'),
+        ('uan', 'ua_n'), ('uei', 'uei'), ('uem', 'u@m'), ('uen', 'u@_n'),
+        ('vam', 'yEm'), ('van', 'y{_n'), ('ai', 'aI'), ('am', 'am'), ('an', 'a_n'),
+        ('ao', 'AU'), ('ei', 'ei'), ('em', '@m'), ('en', '@_n'), ('ia', 'ia'),
+        ('ie', 'iE_r'), ('im', 'im'), ('in', 'i_n'), ('io', 'io'), ('ou', '@U'),
+        ('ua', 'ua'), ('uo', 'uo'), ('ve', 'yE_r'), ('vm', 'yim'), ('vn', 'y_n'),
+        ('m', 'm'), ('ng', 'N'), ('n', 'n'), ('a', 'a'), ('o', 'o'), ('eh', 'E'),
+        ('e', '7'), ('ih', 'i\\'), ('irh', 'i`'), ('i', 'i'), ('u', 'u'), ('v', 'y')
+    )
+#Fixed phonetics of VOCALOID 4 by xcbl_gaomk
 
 def pinyin2xsampa(word):
     if word == 'er':
-        return 'A r\\'
+        if _VOCALOID_VERSION is 3:
+            return 'A r\\'
+        if _VOCALOID_VERSION is 4:
+            return '@`'
     if word[1:].endswith('r'):
         word = word[:-1]
         endswithr = True

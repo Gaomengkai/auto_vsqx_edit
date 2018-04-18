@@ -2,9 +2,8 @@
 import xml.etree.ElementTree as ET
 import pinyin2xsampa
 #pinyin2xsampa from GitHub: https://github.com/m13253/pinyin2xsampa.git
-#Following GPLv3
 '''
-Copyright (C) 2018  Gao Mengkai
+Copyright (C) 2018  Gao Mengkai <gaomengkai0@outlook.com>
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -95,13 +94,18 @@ class vsqx_option():
             #self.lrc.append(note.find('%sy'%namespace).text)
             #self.phonetic.append(note.find('%sp'%namespace).text)
             print()
-            print("[+] "+str(noteN))
-            print("[-] Lyric    ="+note.find('%sy'%namespace).text.replace('@12@','').replace('@13@',''))
-            print("[-] Phonetic ="+note.find('%sp'%namespace).text.replace('@12@','').replace('@13@',''))
-            print("[-] Location ="+note.find('%st'%namespace).text)
-            print("[-] Length   ="+note.find('%sdur'%namespace).text)
-            print("[-] Tone     ="+note.find('%sn'%namespace).text)
-            print("[-] VEL      ="+note.find('%sv'%namespace).text)
+            #print("[+] "+str(noteN))
+            #print("[-] Lyric    ="+note.find('%sy'%namespace).text.replace('@12@','').replace('@13@',''))
+            #print("[-] Phonetic ="+note.find('%sp'%namespace).text.replace('@12@','').replace('@13@',''))
+            #print("[-] Location ="+note.find('%st'%namespace).text)
+            #print("[-] Length   ="+note.find('%sdur'%namespace).text)
+            #print("[-] Tone     ="+note.find('%sn'%namespace).text)
+            #print("[-] VEL      ="+note.find('%sv'%namespace).text)
+            #Code above is so long...
+            printstr = "[" + str(noteN) +']'+'LRC='+note.find('%sy'%namespace).text.replace('@12@','').replace('@13@','')
+            printstr += "\nPHONETIC="+note.find('%sp'%namespace).text.replace('@12@','').replace('@13@','')
+            printstr += "\nLOCATION="+note.find('%st'%namespace).text.replace('@12@','').replace('@13@','')
+            print(printstr)
             noteN+=1
         return chose_part
 
@@ -202,8 +206,10 @@ class vsqx_option():
             note.find('./%sp'%namespace).text=str(p)
         if nStyles is not None and len(nStyles) is 9:
             ns=note.find('./%snStyles'%namespace)
-            for i in range(nStyles):
-                ns[i].text=str(nStyles[i])
+            for i in range(len(nStyles)):
+                if i is not None:
+                    ns[i].text=str(nStyles[i])
+                    #BUG HERE
         return note
         
         
@@ -250,7 +256,7 @@ def interface(path=None):
         choice=input("Your choice:")
         if choice is '0':
             return
-        if choice not in ['1','2','9','4']:
+        if choice not in ['1','2','9','4','5']:
             continue
         if choice is '4':
             v=vsqx_option(data=dat)
@@ -268,8 +274,54 @@ def interface(path=None):
         if choice is '2':
             interface_2(v,part)
         if choice is '5':
-            pass
-            #interface_5(v,part)
+            interface_5(v,part)
+def interface_5(vocaloid,part):
+    num = int(input("Enter the number of a note:"))
+    notes=part.findall('./%snote'%namespace)
+    note = notes[num]
+    #def change_note(self,note,t=None,dur=None,n=None,v=None,y=None,p=None,nStyles=None)
+    print("[-] Lyric    ="+note.find('%sy'%namespace).text.replace('@12@','').replace('@13@',''))
+    print("[-] Phonetic ="+note.find('%sp'%namespace).text.replace('@12@','').replace('@13@',''))
+    print("[-] Location ="+note.find('%st'%namespace).text)
+    print("[-] Length   ="+note.find('%sdur'%namespace).text)
+    print("[-] Tone     ="+note.find('%sn'%namespace).text)
+    print("[-] VEL      ="+note.find('%sv'%namespace).text)
+    print("[-] OPE      ="+note.find('%snStyle'%namespace).findall("./%sv"%namespace)[5].text)
+
+    y=input("Edit Lrc:")
+    p=input("Edit Phonetic:")
+    t=input("Edit Location:")
+    dur=input("Edit Length:")
+    n=input("Edit Tone:")
+    v=input("Edit VEL:")
+    if y is '':
+        y = None
+    if p is '':
+        p = None
+    if t is '':
+        t = None
+    else:
+        t=int(t)
+    if dur is '':
+        dur = None
+    else:
+        dur=int(dur)
+    if n is '':
+        n = None
+    else:
+        n=int(n)
+    if v is '':
+        v = None
+    else:
+        v=int(v)
+    ope=input("Edit OPE:")
+    if ope is '':
+        ope = None
+    else:
+        ope = int(ope)
+    #test nstyle:
+    nStyles = [None,None,None,None,None,ope,None,None,None]
+    vocaloid.change_note(note=note,y=y,p=p,t=t,dur=dur,n=n,v=v,nStyles=nStyles)
 
 
 def interface_2(v,selected_part):
@@ -290,7 +342,7 @@ def interface_2(v,selected_part):
             p=serialize_phonetic_customize()
         if choice is '0':
             return
-        v.incept_phonetic(selected_part,p,begin=begin)
+        v.incept_phonetic(selected_part,p,begin)
 def serialize_phonetic_with_enter():
     print()
     print("Enter the phonetic, and end up your input with 0")
@@ -347,5 +399,5 @@ def mian():
 if __name__ == "__main__":
     while True:
         input("========PRESS ANY KEY========")
-        interface("1213123.vsqx")
+        interface("test1.vsqx")
         #mian()
