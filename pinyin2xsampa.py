@@ -92,6 +92,7 @@ if _VOCALOID_VERSION is 4:
     )
 #Fixed phonetics of VOCALOID 4 by xcbl_gaomk
 
+
 def pinyin2xsampa(word):
     if word == 'er':
         if _VOCALOID_VERSION is 3:
@@ -155,6 +156,7 @@ def main():
             output_line.append('[' + phonetics + ']')
         print(' '.join(output_line))
     return retval
+
 
 if __name__ == '__main__':
     sys.exit(main())
