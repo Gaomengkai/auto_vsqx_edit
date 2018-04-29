@@ -196,7 +196,8 @@ class vsqx_option():
         opts = [
             accent, bendDep, bendLen, decay, fallPort, opening, risePort,
             vibLen, vibType
-        ]  #Advanced Options
+        ]  
+#Advanced Options
         for i in range(0, len(nStyles)):
             temp = ET.SubElement(nStyle, 'v')
             temp.attrib['id'] = str(nStyles[i])
